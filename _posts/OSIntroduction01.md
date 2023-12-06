@@ -1,6 +1,7 @@
 ---
 title: "Introduction to Operating Systems"
 excerpt: "운영체제 살펴보기"
+permalink: categories/os/introduction1
 layout: single
 toc: true
 toc_sticky: true
