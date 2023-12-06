@@ -1,10 +1,8 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Activities"
-    url: /activities/
-  - title: "Computer Science"
-    url: /cs/
-  - title: "Programming"
-    url: /programming/
+  - title: "Category"
+    url: /categories/
+  - title: "Projtects"
+    url: /projects/
+  - title: "Study"
+    url: /knwoledges/
