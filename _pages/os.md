@@ -3,6 +3,8 @@ title: "Operating System"
 permalink: /categories/os/
 layout: category
 author_profile: true
+toc_sticky: true
+toc_ads : true
 taxonomy: Operating System
 ---
 

@@ -1,8 +1,7 @@
 ---
 title: "Introduction to Operating Systems"
 excerpt: "운영체제 살펴보기"
-permalink: categories/os/introduction1
-layout: single
+
 toc: true
 toc_sticky: true
 
@@ -10,7 +9,6 @@ categories:
   - Operating System
 tags:
   - Operating System
-last_modified_at: 2023-09-25 T08:06:00-05:00
 ---
 
 > [운영체제 (이화여자대학교 반효경 교수)](http://www.kocw.net/home/cview.do?cid=3646706b4347ef09)
