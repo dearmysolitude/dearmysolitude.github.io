@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "활동"
+  - title: "Activities"
     url: /activities/
   - title: "Computer Science"
     url: /cs/
