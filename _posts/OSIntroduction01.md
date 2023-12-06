@@ -1,15 +1,15 @@
 ---
 title: "Introduction to Operating Systems"
-permalink: /knowledges/
+excerpts: "운영체제 살펴보기"
+permalink: /os/introduction-to-os01
 layout: single
 toc: true
 toc_sticky: true
 
 categories:
-  - Study
+  - Operating System
 tags:
   - Operating System
-  - Computer Science
 last_modified_at: 2023-09-25 T08:06:00-05:00
 ---
 

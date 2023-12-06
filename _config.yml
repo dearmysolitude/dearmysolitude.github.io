@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "개발 블로그"
+title                    : "dev log"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Lucid"
@@ -73,9 +73,9 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-naver_site_verification  :
+google_site_verification : googlee19bc996816e7f10.html
+bing_site_verification   : 691A53086F8CF4074C9125359388022A
+naver_site_verification  : naver892f2f84bc86baa7f965183b4c33e86e.html
 yandex_site_verification :
 baidu_site_verification  :
 
@@ -108,16 +108,16 @@ author:
   avatar           : "/assets/images/stardust.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "바닷가 좋아하는 카페 쳐돌이"
   location         : "South Korea"
-  email            : "Optimisticnihilism2007@gmail.com"
+  email            : 
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: "mailto:Optimisticnihilism2007@gmail.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:Optimisticnihilism2007@gmail.com"
     - label: "Resume"
       icon: "fas fa-fw fa-link"
       url: "https://lucid.oopy.io/"
     - label: "gitbook"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-gitbook"
       url: "https://app.gitbook.com/o/jsdkLCElpVu6zkercmrr/s/ARaamaAYbniZIpXj5LO6/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"

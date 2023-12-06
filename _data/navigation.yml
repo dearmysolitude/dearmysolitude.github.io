@@ -1,8 +1,8 @@
 # main links
 main:
+  - title: "Projects"
+    url: /projects/
   - title: "Category"
     url: /categories/
-  - title: "Projtects"
-    url: /projects/
-  - title: "Study"
-    url: /knwoledges/
+  - title: "Archive"
+    url: /archive/
