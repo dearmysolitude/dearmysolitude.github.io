@@ -1,6 +1,6 @@
 ---
 title: "Operating System"
-permalink: /categories/os/
+permalink: /categories/Operating System/
 layout: category
 author_profile: true
 toc_sticky: true
