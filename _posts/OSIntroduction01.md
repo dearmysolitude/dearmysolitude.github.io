@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Operating Systems"
-excerpts: "운영체제 살펴보기"
+excerpt: "운영체제 살펴보기"
 layout: single
 toc: true
 toc_sticky: true
