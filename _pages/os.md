@@ -1,9 +1,9 @@
 ---
 title: "Operating System"
-permalink: /categories/os/
+permalink: /categories/operating-system/
 layout: category
 author_profile: true
-taxonomy: OS
+taxonomy: Operating System
 ---
 
 Operating System 관련 글입니다.
