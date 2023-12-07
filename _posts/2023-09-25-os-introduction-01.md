@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Operating Systems 01 | 운영체제"
+title: "Introduction to Operating Systems 01 / 운영체제"
 excerpt: "운영체제 살펴보기"
 
 toc: true

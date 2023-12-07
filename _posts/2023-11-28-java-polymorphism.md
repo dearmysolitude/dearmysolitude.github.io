@@ -1,5 +1,5 @@
 ---
-title: "다형성(Polymorphism) | Java"
+title: "다형성(Polymorphism) / Java"
 excerpt: "다형성의 개념과 Java에서 다형성을 다루는 기법들"
 
 toc: true
