@@ -73,9 +73,9 @@ Big-O 계산으로는 O(5n +7) = O(5n) = O(n), O(n² + 25) = O(n²) 를 예로 �
 
 ![timecomplexity](/assets/images/timecomplexity.png)
 
-시간 복잡도를 표현하는 방법 중 하나인 Big-O에 의한 여러가지 알고리즘의 분류. 가로 축은 처리해야하는 데이터 양(n), 세로 축은 그에 따른 작업량을 의미한다. http://bigocheatsheet.com/
+시간 복잡도를 표현하는 방법 중 하나인 Big-O에 의한 여러가지 알고리즘의 분류. 가로 축은 처리해야하는 데이터 양(n), 세로 축은 그에 따른 작업량을 의미한다. (출처: [http://bigocheatsheet.com/](http://bigocheatsheet.com/))
 
-    선호되는 알고리즘. 단연 시간 소모가 적은 왼쪽이 선호된다: O(1) < O(log₂ n) < O(n) < O(n log₂ n) < O(n²) < O(2ⁿ) < O(n!)
+> 선호되는 알고리즘. 단연 시간 소모가 적은 왼쪽이 선호된다: O(1) < O(log₂ n) < O(n) < O(n log₂ n) < O(n²) < O(2ⁿ) < O(n!)
 
 #### O(1)
 
@@ -121,6 +121,7 @@ def print_each_n_times(li):
         for m in li:
             print(n,m)
 ```
+
 ### 시간 복잡도를 구하는 요령(Tip)
 
     하나의 루프를 사용하여 단일 요소 집합을 반복 하는 경우 : O (n)
@@ -130,7 +131,7 @@ def print_each_n_times(li):
     두 개의 중첩 루프를 사용하여 두 개의 다른 콜렉션을 반복 할 경우 : O (n * m) -> O (n²)
     컬렉션 정렬을 사용하는 경우 : O(n*log(n))
 
-### 정렬 알고리즘 비교
+#### 정렬 알고리즘 비교
 
 | Sorting Algorithm | 공간 복잡도 | 최악 | 최선 | 평균 |
 | --- | --- | --- | --- | --- |
@@ -145,7 +146,7 @@ def print_each_n_times(li):
 
 *최악/최선/평균은 모두 시간 복잡도임
 
-### 자료구조 비교
+#### 자료구조 비교
 
 **Average Case**
 
@@ -172,14 +173,14 @@ def print_each_n_times(li):
 | Doubly Linked List | O(n) | O(1) | O(1) |
 | Stack | O(n) | O(1) | O(1) |
 | Hash table | O(n) | O(n) | O(n) |
-| Binary Search | O(log n) | O(n) | O(n) | O(n) |
+| Binary Search | O(n) | O(n) | O(n) |
 | B-Tree | O(log n) | O(log n) | O(log n) |
 | Red-Black tree | O(log n) | O(log n) | O(log n) |
 | AVL Tree | O(log n) | O(log n) | O(log n) |
 
-## 예제: 코드를 Big-O 로 표기해 보자
+### 예제: 코드를 Big-O 로 표기해 보자
 
-```py
+```python
 def fibonacci(n):
     if n < 0:
         return
@@ -198,17 +199,19 @@ def fibonacci(n):
     return result
 ```
 
-이 함수는 n 번째 피보나치 수열 값을 반환하는 fibonacci 함수이다. 이를 분석해보자.
-
-주어진 n값이 0보다 작거나, 1 이하인 경우는 일반적이지 않으므로 고려하지 않는다(n은 1보다 크다).
+- 이 함수는 n 번째 피보나치 수열 값을 반환하는 fibonacci 함수이다. 이를 분석해보자.
+- 주어진 n값이 0보다 작거나, 1 이하인 경우는 일반적이지 않으므로 고려하지 않는다(n은 1보다 크다).
 
 #### 상수항 부 구하기
 
-반복문 밖의 명령문들은 1 번만 수행된다. if 문 각각 한 번씩 실행하여 2 회, 변수 값 할당 3 회, 마지막 return 문 1 회가 발생한다. 상수항은 6.
+- 반복문 밖의 명령문들은 1 번만 수행된다.
+- if 문 각각 한 번씩 실행하여 2 회, 변수 값 할당 3 회, 마지막 return 문 1 회가 발생한다. 상수항은 6.
 
 #### 다항식 부 구하기
 
-for 문에서 최대 n-1 회 반복이 발생한다. 반복문 조건 체크 1 회, 반복문 내부 명령 3 회로, 내부적으로 4회의 코드가 실행된다. 다항식 항은 4(n-1).
+- for 문에서 최대 n-1 회 반복이 발생한다.
+- 반복문 조건 체크 1 회, 반복문 내부 명령 3 회로, 내부적으로 4회의 코드가 실행된다.
+- 다항식 항은 4(n-1).
 
 #### 실행 시간 함수 구하기
 
