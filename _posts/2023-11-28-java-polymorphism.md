@@ -76,7 +76,6 @@ public enum Operator {
 ```
 
 - 메인 클래스
-
 ```java
 public static void main(String[] args) {
     String question = "4*7";
@@ -93,11 +92,8 @@ public static void main(String[] args) {
 ## 정리
 
 - 다형성은 코드 중복을 줄이면서 변경과 확장에 유연한 객체 지향적인 코드를 작성하는데 유용하다.
-- 다형성의 구현을 위해서는 공통 특성을 타입으로 추상화하고 그것을 상속(인터페이스라면)해야한다.
+- 다형성의 구현을 위해서는 공통 특성을 타입으로 추상화하고 그것을 상속(인터페이스라면)해야한다. <br> 
 
- 
-
- 
 ## 참고 자료
 
 즐거운 자바: 다형성

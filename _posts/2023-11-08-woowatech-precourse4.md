@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 
 categories:
-  - 활동
+  - Activities
 tags:
   - 우아한 테크코스
   - 과제
