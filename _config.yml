@@ -113,7 +113,10 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:Optimisticnihilism2007@gmail.com"
-    - label: "gitbook"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: 
+    - label: "Gitbook"
       icon: "fas fa-fw fa-book"
       url: "https://app.gitbook.com/o/jsdkLCElpVu6zkercmrr/s/ARaamaAYbniZIpXj5LO6/"
     - label: "Twitter"
