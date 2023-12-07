@@ -4,5 +4,7 @@ main:
     url: /projects/
   - title: "Category"
     url: /categories/
+  - title: "Tag"
+    url: /tags/
   - title: "Archive"
     url: /archive/

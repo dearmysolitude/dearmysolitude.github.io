@@ -80,7 +80,7 @@
     right: 0;
     width: $right-sidebar-width-narrow;
     margin-right: -1 * $right-sidebar-width-narrow;
-    padding-left: 1em;
+    padding-left: 4em; /* 원본 1em */
     z-index: 10;
 
     &.sticky {
@@ -174,11 +174,12 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-3; /* 5->3 으로 변경*/
 }
 
 .author__bio {
   margin: 0;
+  font-size: $type-size-4; /* 추가 */
 
   @include breakpoint($large) {
     margin-top: 10px;
