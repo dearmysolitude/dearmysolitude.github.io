@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Operating System
+  - Computer Science
 tags:
   - Operating System
 ---
