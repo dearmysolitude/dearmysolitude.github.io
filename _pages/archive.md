@@ -1,6 +1,6 @@
 ---
 title: "Posts by Time"
-permalink: /time-archive/
+permalink: /archive/
 layout: posts
 author_profile: true
 ---
