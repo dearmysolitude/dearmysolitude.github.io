@@ -149,4 +149,4 @@ z:
 
 [[JDK 14] Switch 문에서 arrow operator 이용하기 (jiniworld.me)](https://blog.jiniworld.me/161#recentComments)
 
-[JDK 17 LTS 정리 | 돈 받고 일하면 프로 (shirohoo.github.io)](https://shirohoo.github.io/backend/java/2022-01-27-jdk17-lts/#switch-expression)
+[JDK 17 LTS 정리 - 돈 받고 일하면 프로 (shirohoo.github.io)](https://shirohoo.github.io/backend/java/2022-01-27-jdk17-lts/#switch-expression)
