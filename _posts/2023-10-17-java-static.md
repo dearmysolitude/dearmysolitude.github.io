@@ -79,6 +79,14 @@ Static 메서드와 변수는 인스턴스가 생성되기 전에 이미 메모�
 
 ※ static 메서드 내에서는 인스턴스 변수를 사용할 수 없다. Static 메서드는 객체 생성없이 프로그램이 시작될 때 메모리에 로드되는데, name1 변수는 new 연산을 통해 객체가 생성되므로 할당되지 않은 영역에 접근할 수 없기 때문이다.
 
+#### Static 메서드 내 인스턴스 필드
+
+클래스 메서드(static method)가 실행되는 시점에는 인스턴스 필드가 메모리에 없으므로 사용할 수 없다 → 컴파일 오류
+
+- static 메서드 / static 필드 = 클래스 메서드 / 클래스 필드
+- 비 static 메서드 / 비 static 필드 = 인스턴스 메서드 / 인스턴스 필드
+
+
 ```java
 public class Test {
     private String name1 = "abc";
@@ -117,6 +125,28 @@ public final class CommonUtils {
 ```
 메서드는 프로그램이 실행될 때 메모리에 이미 로드되어 있지만, 그 안의 필드 객체들은 getCurrentDate() 메서드가 실행될 때에만  heap에 생성된다.
 
+## Main메서드보다 먼저 실행되는 static 블록
+
+static block은 static 변수에 대한 초기화를 진행할 수 있다:
+
+```java
+public class hello  {
+	static int a;
+	static {
+    	a = 500;
+        System.out.println(a);
+        }
+        public static void main(String[] args) {
+        System.out.println("Hello");
+        }
+ }
+```
+
+클래스 필드와 클래스 메서드는 실행이 가능하도록 올라가고, static 블록의 코드가 실행되어 그 값을 초기화한다.
+
+그 다음 JVM은 메인 메서드를 찾아 실행한다: static하므로 객체를 생성하지 않고도 실행할 수 있다.
+
+따라서: a값을 출력 후, "Hello"
  
 ## Static을 사용하는 이유와 주의사항
  
@@ -132,7 +162,7 @@ static을 사용하면
 - 멀티 스레딩: 데이터 일관성 문제가 발생할 수 있어 동기화 기능이 꼭 필요하다.
 - 객체 지향 설계 방해: 객체 간 상호작용보다 클래스간 상호작용이 많아지면 코드의 유지보수가 어려워진다.
 - 모든 인스턴스에서 공유되므로 하나의 테스트케이스에서 변경된 static값이 다른 테스트케이스에 영향을 줄 수 있어 테스트가 까다로워진다.
-
+ 
  
 ## 참조
 
