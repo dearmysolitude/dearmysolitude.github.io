@@ -6,9 +6,8 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Programming
-tags:
   - Java
+tags:
 ---
 # 키워드(keyword)
 Java 언어에서 정한 예약어

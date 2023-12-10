@@ -6,10 +6,9 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Programming
-tags:
   - C
-  - 포인터
+tags:
+  - pointer
 ---
 
 ## 배열

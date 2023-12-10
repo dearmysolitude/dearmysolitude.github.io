@@ -6,10 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Programming
+  - Computer Science
 tags:
-  - 시간 복잡도
-  - 알고리즘 & 자료구조
+  - Algorithm
+  - Data Structure
+  - Time Complexity
 ---
 ![bigO](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216611&authkey=%21APNDcVe-IhUiceA&width=680&height=697)
 ## 효율적인 알고리즘

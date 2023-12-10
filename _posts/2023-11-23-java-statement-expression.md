@@ -6,9 +6,8 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Programming
-tags:
   - Java
+tags:
 ---
 # 표현식 Expression
 

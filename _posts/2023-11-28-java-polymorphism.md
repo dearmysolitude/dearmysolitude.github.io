@@ -6,9 +6,8 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Programming
-tags:
   - Java
+tags:
   - 다형성
 ---
 # 다형성 Polymorphism

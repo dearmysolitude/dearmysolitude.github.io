@@ -7,5 +7,3 @@ toc_sticky: true
 toc_ads : true
 taxonomy: Computer Science
 ---
-
-Operating System 관련 글입니다.

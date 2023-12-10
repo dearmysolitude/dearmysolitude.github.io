@@ -77,4 +77,5 @@ tags:
 
 ## 인터럽트(Interrupt)
 ![interrupt](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216632&authkey=%21AJGrqOrBWbMZNE4&width=514&height=387)
+
 위에서 device들을 설명하면서 언급한 인터럽트들. 현대의 운영체제는 인터럽트에 의해 구동된다.

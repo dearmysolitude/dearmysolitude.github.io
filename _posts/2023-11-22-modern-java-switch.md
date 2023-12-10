@@ -6,9 +6,8 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Programming
-tags:
   - Java
+tags:
   - Modern Java
 ---
 # 들어가기 전에

@@ -6,9 +6,8 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Programming
-tags:
   - Java
+tags:
 ---
 JVM에 대해서는 참고자료의 아티클을 통해 조금 더 자세하게 정리해보도록 하자.``
 
@@ -38,7 +37,9 @@ Working of Java Virtual Machine(JVM)
 java vendingMachineMain
 ```
 
-### 2-1.  JVM은 CLASSPATH 경로에서 .class 파일을 찾아서 실행한다.
+### 2-1. .class 파일을 실행
+
+JVM은 CLASSPATH에 있는 .class 파일을 찾아 실행한다.
 
 IntelliJ의 경우에는 build 패키지 아래에 있는 클래스 파일이겠다.
 
@@ -60,9 +61,9 @@ Just in time compilation: JVM이 바이트코드를 처음부터 읽어 전체�
 PERM에 클래스 정보가 올라가게 되면, JVM은 해당 클래스가 어떤 static 메서드를 가지고 있는지, 인스턴스 메서드를 가지고 있는지 알게된다.
 
  
-### 2-2. JVM은 PERM영역에 있는 main클래스(진입점)를 실행한다.
+### 2-2. PERM의 main메서드 실행
 
-JVM이 main메서드를 찾아 실행시킨다
+JVM이 main 메서드(진입점)를 찾아 실행시킨다
 
 1. Java stack의 stack entry에 main메서드가 올라간다.
     - stack entry에는 프로그램 카운터(PC register)가 존재하여 몇 번째 줄을 실행하고 있는지 JVM이 알고 있다.
@@ -77,7 +78,7 @@ JVM이 main메서드를 찾아 실행시킨다
  
 # 참고자료
 
-[JVM ARCHITECTURE. It is very important, as a programmer… | by Deepti Swain | InterviewNoodle](https://interviewnoodle.com/jvm-architecture-71fd37e7826e)
+[JVM ARCHITECTURE. It is very important, as a programmer… by Deepti Swain / InterviewNoodle](https://interviewnoodle.com/jvm-architecture-71fd37e7826e)
 
 [인프런 즐거운 자바 - 메서드가 실행될 때 어떤 일이 일어나는가](https://www.inflearn.com/course/lecture?courseSlug=%EC%A6%90%EA%B1%B0%EC%9A%B4-%EC%9E%90%EB%B0%94&unitId=145895)
 

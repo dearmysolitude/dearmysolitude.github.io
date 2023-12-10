@@ -6,7 +6,9 @@ main:
     url: /categories/computer-science/
   - title: "Java"
     url: /categories/java/
-  - title: "activities" 
-    url: /categories/computer-science/
+  - title: "Spring"
+    url: /categories/spring/
+  - title: "Programming"
+    url: /categories/programming/
   - title: "Category"
     url: /categories/

@@ -6,9 +6,8 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Programming
-tags:
   - Java
+tags:
 ---
 # 상속이란?
 ![inheritance](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216620&authkey=%21AGz0_HoL8qqtea8&width=1174&height=644)
