@@ -1,5 +1,5 @@
 ---
-title: "동시성(Concurrency) / DB"
+title: "동시성(Concurrency)"
 excerpt: "DB에서 동시성의 의미와 이를 지키기 위한 방법들"
 
 toc: true

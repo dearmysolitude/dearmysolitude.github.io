@@ -1,5 +1,5 @@
 ---
-title: "자바 기초 / Java"
+title: "자바 기초"
 excerpt: "자바에 대한 기본적인 지식들"
 
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: "for문의 라벨링 / java"
+title: "for문의 라벨링"
 excerpt: "자바에서는 for문 라벨링이 가능하다: 토막글"
 
 toc: true

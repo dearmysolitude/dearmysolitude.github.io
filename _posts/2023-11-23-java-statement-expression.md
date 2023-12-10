@@ -1,5 +1,5 @@
 ---
-title: "Expression vs. Statement / java"
+title: "Expression vs. Statement"
 excerpt: "Expression과 statement의 차이: 토막글"
 
 toc: true

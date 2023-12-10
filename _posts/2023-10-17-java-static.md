@@ -1,5 +1,5 @@
 ---
-title: "Static / Java"
+title: "Static"
 excerpt: "Java에서의 static"
 
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: "Switch / java"
+title: "Switch"
 excerpt: "모던 자바의 Switch"
 
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: "데이터형 / java"
+title: "데이터형"
 excerpt: "자바의 데이터형: 원시타입과 참조타입, 클래스 정보의 등록"
 
 toc: true

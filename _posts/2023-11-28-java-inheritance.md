@@ -1,5 +1,5 @@
 ---
-title: "상속(Inheritance) / Java"
+title: "상속(Inheritance)"
 excerpt: "Java에서 사용하는 상속에 대해서 알아보자"
 
 toc: true
@@ -9,7 +9,6 @@ categories:
   - Java
 tags:
 ---
-# 상속이란?
 ![inheritance](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216620&authkey=%21AGz0_HoL8qqtea8&width=1174&height=644)
 출처: https://coding-factory.tistory.com/865
 

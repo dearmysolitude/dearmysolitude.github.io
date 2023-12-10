@@ -1,5 +1,5 @@
 ---
-title: "System Structure & Program Execution 01 / 운영체제"
+title: "System Structure & Program Execution 01"
 excerpt: "본격적으로 운영체제에 들어가기 전, 하드웨어 동작에 대해 알아본다."
 
 toc: true
