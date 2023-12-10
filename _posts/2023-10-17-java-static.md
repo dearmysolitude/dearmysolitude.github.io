@@ -8,7 +8,6 @@ toc_sticky: true
 categories:
   - Java
 tags:
-  - Java
 ---
 코드를 작성하다 간과하고 넘어갔던 부분에 대해 궁금증이 생겨서 조금씩 공부해보기로 했다.
 

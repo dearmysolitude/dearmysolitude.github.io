@@ -8,7 +8,7 @@ main:
     url: /categories/java/
   - title: "Spring"
     url: /categories/spring/
-  - title: "Software Design"
-    url: /categories/software-design/
   - title: "Category"
     url: /categories/
+  - title: "Tags"
+    url: /tags/

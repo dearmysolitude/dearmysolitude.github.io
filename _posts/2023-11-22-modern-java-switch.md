@@ -9,6 +9,7 @@ categories:
   - Java
 tags:
   - Modern Java
+  - switch
 ---
 # 들어가기 전에
 

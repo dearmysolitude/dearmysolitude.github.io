@@ -8,7 +8,6 @@ toc_sticky: true
 categories:
   - Java
 tags:
-  - Java
 ---
 # JAVA
 

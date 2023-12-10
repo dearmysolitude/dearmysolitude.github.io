@@ -12,6 +12,8 @@ tags:
 ![inheritance](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216620&authkey=%21AGz0_HoL8qqtea8&width=1174&height=644)
 출처: https://coding-factory.tistory.com/865
 
+## 상속
+
 - ~ Is a ... / Kind of ~ 관계 ( ~는 ...다/ ...는 ~ 종류이다.)
 - 상속 = 일반화 기능 + 확장 기능
 - 상속은 가장 강한 결합도를 가진다. 반드시 써야할 때만 사용하고 가급적 사용하지 않는 것이 좋다. 결합도를 낮추고 응집도를 높여야 활용성이 높아지므로.
@@ -23,7 +25,7 @@ tags:
 }
 ```
  
-## Question: 참조 변수가 자식 클래스의 객체를 참조하고 있는 경우 어떤 일이 발생할까?
+## 자식 클래스 객체를 참조한다면
 
 ```java
 Car car = new Bus();
