@@ -33,7 +33,7 @@ tags:
 
 ### 트랜잭션의 특성을 지키기 위한 방안들
 
-![트랜잭션의 특성](/assets/images/transaction.png)
+![트랜잭션의 특성](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216600&authkey=%21AG22CsWXKyiVWRg&width=565&height=319)
 
 - 트랜잭션이 실행되다 장애에 의해 부분 완료되는 상황은 원자성과 지속성이라는 속성에 위배된다.DBMS는 이런 속성을 지키기 위해 **회복 관리자 프로그램**을 사용한다. 일부만 진행된 트랜잭션을 취소시켜 *원자성*을 유지할 뿐 아니라 값을 트랜잭션 이전의 상태로 복원시켜 *지속성*을 유지시켜 준다.
 - 또한 *일관성*과 *고립성*을 유지하기 위해서 값에 동시에 접근하지 않도록 하므로 **동시성 제어****(Concurrency Control)**을 활용한다.
@@ -42,7 +42,7 @@ tags:
 <br/>
 
 ## 트랜잭션 상태
-![트랜잭션의 상태](/assets/images/transactionStatus.png)
+![트랜잭션의 상태](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216602&authkey=%21APKkinNFLmBSup8&width=743&height=363)
 
 - 활성 상태(Active State)
     - 트랜잭션의 명령이 실행 중일 때 트랜잭션은 활성 상태에 있다.

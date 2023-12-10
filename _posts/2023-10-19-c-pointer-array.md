@@ -23,7 +23,7 @@ tags:
 포인터(pointer)는 다른 변수, 혹은 그 변수의 메모리 공간주소를 가리키는 변수를 말한다. 포인터가 가리키는 값을 가져오는 것을 역참조라고 한다. 그 포인터가 가르키는 공간의 값을 가져오는 것을 역참조라고한다.
 32 바이트 환경에서 C언어의 포인터는 4 바이트이며, 64 바이트 환경에서는 8 바이트이다.
 
-![C 언어의 32 bit 환경에서 포인터](/assets/images/pointer32bit.png)
+![C 언어의 32 bit 환경에서 포인터](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216593&authkey=%21AIoQ2r1D1P3FMjE&width=740&height=330)
 
  <br> 
 
@@ -61,7 +61,7 @@ int** pp = &p; // 포인터 p를 가르키는 이중 포인터: 포인터형을 
 
 - 포인터는 연산자를 지원한다.
 - 뺄셈도 같은 방식으로 지원한다.
-![pointer](/assets/images/pointerplus.png)
+![pointer](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216594&authkey=%21AAoue9CPiBi3vQ8&width=818&height=549)
 - 포인터 변수의 자료형의 크기만큼 가상메모리의 주소를 이동하여 접근한다.
 - 포인터에서 +, - 연산으로 포인터를 이동시켜 가르키는 곳의 메모리를 읽거나 참조할 경우, 이 메모리 주소의 데이터가 유효해야만 하니 항상 주의해야 한다!
 
@@ -150,7 +150,7 @@ int main() {
 
 ## 2 차원 배열의 포인터
 
-![2dpointer](/assets/images/2dpointer.png)
+![2dpointer](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216607&authkey=%21AAFpFG4JfZJa9vE&width=716&height=601)
 
 실제로는 이런식으로 저장된다. 출처: https://wonit.tistory.com/527
 
@@ -179,8 +179,8 @@ int main() {
 
 parr[1][1] = *((parr + 1 ) + 1)과 동일하다. parr은 int**를 가르키는 포인터이고, int*의 크기는 8바이트이므로, 실제 주소값은 8이 증가한다. 다음 그림들을 보면 쉽게 이해할 수 있다.
 
-![2dpointer1](/assets/images/2dpointer1.png)
-![2dpointer2](/assets/images/2dpointer2.png)
+![2dpointer1](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216609&authkey=%21AGMon2Fh3Y0gzgc&width=1280&height=1063)
+![2dpointer2](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216608&authkey=%21AAD63Uk2uS6tFS4&width=325&height=514)
 
 그림으로 보니 이해가 잘 된다.
  
@@ -223,7 +223,7 @@ printf("%llx", *number);
  <br>
 
 ## 연습 문제
-![example](/assets/images/pointerexample.png)
+![example](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216606&authkey=%21AO2qkUU-kOu48ao&width=1280&height=897)
 이걸 이해할 정도면 충분합니다
 
 - 32 비트 OS: 포인터와 char, int의 크기는 4 바이트.

@@ -11,7 +11,7 @@ tags:
   - 시간 복잡도
   - 알고리즘 & 자료구조
 ---
-![bigO](/assets/images/bigonotation.png)
+![bigO](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216611&authkey=%21APNDcVe-IhUiceA&width=680&height=697)
 ## 효율적인 알고리즘
 
 알고리즘에서 문제를 푸는 것 만큼이나 중요한 문제는 공간과 시간의 활용을 어떻게 효율적으로 할 것인지에 대한 문제이다.
@@ -56,7 +56,7 @@ c는 고정 공간(상수)를, Sp(n)은 가변 공간을 나타낸다.
 데이터가 많은 경우에 유의미하게 차이가 발생하므로, 데이터 수가 적은 경우의 수행 속도는 큰 의미가 없다.
 
  
-![bigO](/assets/images/bigOworstcase.png)
+![bigO](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216612&authkey=%21ANsaBynlZyIMGtA&width=359&height=215)
 
     정의: 모든 N>N0 에 대하여, f(N) ≤ k⋅g(N) 이 성립하는 양의 상수 k 와 N0​ 가 존재하면, f(N) = O(g(N)) 이다.
 
@@ -65,13 +65,13 @@ c는 고정 공간(상수)를, Sp(n)은 가변 공간을 나타낸다.
 실제 상황에서 알고리즘의 속도는 정확하지 않을 수 있지만, 이 방법을 사용하는 이유는, n에 대한 일반적인 추세를 확인할 수 있기 때문이다: 입력값의 변화에 따른 알고리즘의 시간 소비를 예측할 수 있다.
 
 Big-O 계산으로는 O(5n +7) = O(5n) = O(n), O(n² + 25) = O(n²) 를 예로 들 수 있다. 하지만 여기에서 등호는 '같다(equals)'가 아닌 '이다(is)', '정도이다(approx)' 라고 해석해야 혼란을 피할 수 있다.(여기에서의 직관적으로 '같다'라고 판단하는 데에서 Big-O의 오용이 발생했고, 이로 인해 Big-θ notation이 등장하였다.)
-![bigO](/assets/images/BigOcal.png)
+![bigO](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216610&authkey=%21AEAWPiCbG3GkIsg&width=426&height=29)
 이 때 Big-O는 
-![bigO](/assets/images/BigOnotation.png)
+![bigO](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216639&authkey=%21AL6lGxIhDbWdoJc&width=59&height=27)
  
 ## 시간 복잡도의 평가: 데이터 수에 따른 처리 시간 증가/수렴
 
-![timecomplexity](/assets/images/timecomplexity.png)
+![timecomplexity](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216599&authkey=%21AB_MgZiUxcSOkxU&width=1080&height=723)
 
 시간 복잡도를 표현하는 방법 중 하나인 Big-O에 의한 여러가지 알고리즘의 분류. 가로 축은 처리해야하는 데이터 양(n), 세로 축은 그에 따른 작업량을 의미한다. (출처: [http://bigocheatsheet.com/](http://bigocheatsheet.com/))
 

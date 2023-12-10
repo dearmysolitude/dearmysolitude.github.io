@@ -11,10 +11,10 @@ tags:
   - Operating System
 ---
 # 컴퓨터 시스템 구조
-![System-structure](/assets/images/os-system-structure.png)
+![System-structure](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216635&authkey=%21AAklKiqewBBcNUw&width=442&height=334)
 
 ## CPU
-![CPU](/assets/images/cpu.png)
+![CPU](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216613&authkey=%21AERuDg09KF-ea8o&width=116&height=86)
 
 - CPU는 메모리로부터 매 clock cycle마다 기계어 instruction를 읽어들인다
 - Register: 메모리보다 더 빠르면서 정보를 저장할 수 있는 공간, 메모리와의 속도 차이를 보완하는 역할을 한다.
@@ -24,7 +24,7 @@ tags:
 메모리의 프로그램 A -> ( 특정 디바이스 접근 요청 ) -> CPU 에서 해당 인스트럭션 처리 -> device controller를 통해 명령 처리 -> interrupt를 통해 관련 처리 완료를 전달하고 관련 작업을 처리, 전달되기 전까지는 CPU는 다른 프로그램을 처리한다.
 
 ## Timer
-![timer](/assets/images/os-timer.png)
+![timer](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216636&authkey=%21ANDyWYI_AvK3IQU&width=663&height=382)
 
 - 만약, 무한 루프를 도는 프로그램이 실행되어 있다고 해 보자. 이 경우 CPU는 명령을 처리중이지만 다른 명령을 수행할 수 없는 상태이다. 그럼 이 상황을 어떻게 컴퓨터는 다룰까? -> Timer
 - Timer는 특정 프로그램이 CPU를 독점하는 것을 막기 위해 있는 하드웨어.
@@ -34,7 +34,7 @@ tags:
 - Interrupt가 들어오면 CPU의 제어권이 사용자 프로그램으로부터 운영체제로 자동으로 넘어간다.
 
 ## Mode bit
-![modebit](/assets/images/modebit.png)
+![modebit](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216625&authkey=%21AHJwH6kkTPwIWWs&width=508&height=417)
 
 - Mode bit = 0: 메모리 접근, I/O 디바이스 접근 모두 허용된다.
 - Mode bit = 1: 제한된 instruction만 실행할 수 있게 되어 있다.
@@ -55,7 +55,7 @@ tags:
 
 ### System call
 사용자 프로그램의 운영체제에 있는 커널 함수의 호출
-![system-call](/assets/images/os-systemcall.png)
+![system-call](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216634&authkey=%21AArKalEuo8BL5iE&width=246&height=187)
 
 - 코드가 사용자 프로그램 내에서 함수를 호출하여 메모리 주소를 바꾸는 것과는 조금 다르다.
 - Mode bit이 1일 때에는 운영체제 권한의 기능은 수행할 수 없다(즉 여기에서 필요한 기능인 입출력 장치의 접근을 할 수 없다는 것).
@@ -63,7 +63,7 @@ tags:
 - Mode bit 이 0 으로 바뀌고 제어권은 운영체제에 넘어간다.
 
 ## Device Controller
-![DeviceController](/assets/images/os-devicecontroller.png)
+![DeviceController](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216629&authkey=%21AB-hjHXwgOGJh0c&width=522&height=414)
 - CPU와 I/O device의 속도 차이: CPU ~ HardDisk->100 만배 차이 => 디스크를 CPU가 직접 처리하지 않는다
 - 작은 CPU 같은 컨트롤러가 붙어있어 (예를 들어 하드디스크의 경우, 디스크에서 헤드가 어떻게 움직이고, 어떤 데이터를 읽어야 하는지 제어하는 역할을 한다. 즉, 디스크를 통제하는 것은 CPU가 아닌 디스크에 붙어있는 device controller가 수행한다.)
 - CPU는 메모리 접근도, local buffer 접근도 가능하지만, device controller들은 자신의 local buffer만 접근 가능하다.
@@ -76,5 +76,5 @@ tags:
 - 둘이서 특정 메모리 구역에 동시에 접근하는 경우에는 문제가 발생할 수 있기 때문에 memory controller는 이를 중재하는 역할을 한다.
 
 ## 인터럽트(Interrupt)
-![interrupt](/assets/images/os-interrupt.png)
+![interrupt](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216632&authkey=%21AJGrqOrBWbMZNE4&width=514&height=387)
 위에서 device들을 설명하면서 언급한 인터럽트들. 현대의 운영체제는 인터럽트에 의해 구동된다.

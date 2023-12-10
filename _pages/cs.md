@@ -1,11 +1,11 @@
 ---
-title: "Operating System"
-permalink: /categories/Operating System/
+title: "CS"
+permalink: /categories/computer-science/
 layout: category
 author_profile: true
 toc_sticky: true
 toc_ads : true
-taxonomy: Operating System
+taxonomy: Computer Science
 ---
 
 Operating System 관련 글입니다.

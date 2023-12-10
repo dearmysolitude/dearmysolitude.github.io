@@ -76,7 +76,7 @@ Class, Interface, ...
 primitive 자료형이 기본 값을 가지고 있는 것처럼(int는 0, boolean 은 false), 참조형 자료의 기본 값이다.
 
 ## 참조 데이터의 원본? 클래스 정보의 등록
-![metaspace](/assets/images/java-metaspace.png)
+![metaspace](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216621&authkey=%21ABBRo7NsTCf15dA&width=711&height=420)
 Java 8부터 적용된 메타스페이스(PERM → Metaspace)
 
 - Java Heap은 JVM이 관리하는 메모리, native memory는 운영체제에서 관리하는 메모리이다.
@@ -88,7 +88,7 @@ HDD나 SSD의 경우 RAM보다 속도가 느리기때문에 매번 보조기억�
 
 → 이미 클래스에 대한 정보를 PERM 혹은 Metaspace에 올려두고, 객체가 생성될 때마다 사용하는 것이다.
 
-![class-to-object](/assets/images/java-class-to-object.png)
+![class-to-object](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216618&authkey=%21APTmX-mkIGlXLdM&width=870&height=406)
 Java에서 메타스페이스를 사용하여 클래스를 관리하고 여기에서 객체가 생성되는 방법
 
 ## Static 정보의 생성

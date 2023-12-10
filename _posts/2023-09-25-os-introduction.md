@@ -108,7 +108,7 @@ tags:
 <br>
 
 ## 구조
-![os01](/assets/images/os01.png)
+![os01](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216628&authkey=%21AMCuXqqDOOhdV7Y&width=534&height=349)
 ### CPU 스케줄링
 
 - Disk: 메모리에 비해 60~100만배 느림, 메모리: CPU에 비해 수백배 느림 => 자원 활용 최대화 필요

@@ -2,9 +2,11 @@
 main:
   - title: "Projects"
     url: /projects/
+  - title: "CS"
+    url: /categories/computer-science/
+  - title: "Java"
+    url: /categories/java/
+  - title: "activities" 
+    url: /categories/computer-science/
   - title: "Category"
     url: /categories/
-  - title: "Tag"
-    url: /tags/
-  - title: "Archive"
-    url: /archive/
