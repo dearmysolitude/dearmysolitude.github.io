@@ -1,6 +1,6 @@
 ---
 title: "Spring"
-permalink: /categories/spring/
+permalink: /spring/
 layout: category
 author_profile: true
 toc_sticky: true

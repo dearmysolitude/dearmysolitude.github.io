@@ -1,6 +1,6 @@
 ---
 title: "Java"
-permalink: /categories/java/
+permalink: /java/
 layout: category
 author_profile: true
 toc_sticky: true

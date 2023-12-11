@@ -1,9 +1,9 @@
 ---
-title: "CS"
-permalink: /computer-science/
+title: "Projects"
+permalink: /projects/
 layout: category
 author_profile: true
 toc_sticky: true
 toc_ads : true
-taxonomy: Computer Science
+taxonomy: Project
 ---

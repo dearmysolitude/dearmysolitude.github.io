@@ -3,11 +3,11 @@ main:
   - title: "Projects"
     url: /projects/
   - title: "CS"
-    url: /categories/computer-science/
+    url: /computer-science/
   - title: "Java"
-    url: /categories/java/
+    url: /java/
   - title: "Spring"
-    url: /categories/spring/
+    url: /spring/
   - title: "Category"
     url: /categories/
   - title: "Tags"
