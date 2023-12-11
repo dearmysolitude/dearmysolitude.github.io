@@ -15,5 +15,10 @@ bundle exec jekyll serve
 - 이미지: 외부 호스팅(원드라이브)
 - 댓글: disqus
 - 검색: algolia
-- CI: Travis CI - trial
+- CI: Github Actions, Travis CI - trial
 - 사이트 등록: Google, Bing, Naver, Daum
+
+### TODO
+- Travis CI(글 push 할 때마다 Jekyll algolia로 데이터 전송) → Github Actions
+- [사이드바 추가하기](https://enidanny.github.io/github%20blog/github-sidebar/)
+- 색 테마 변경
