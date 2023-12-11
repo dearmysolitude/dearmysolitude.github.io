@@ -15,5 +15,5 @@ bundle exec jekyll serve
 - 이미지: 외부 호스팅(원드라이브)
 - 댓글: disqus
 - 검색: algolia
-- CI: Travis CI
+- CI: Travis CI - trial
 - 사이트 등록: Google, Bing, Naver, Daum
