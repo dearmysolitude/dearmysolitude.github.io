@@ -10,14 +10,14 @@ categories:
 tags:
   - 
 ---
-JVM에 대해서는 참고자료의 아티클을 통해 조금 더 자세하게 정리해보도록 하자.``
+JVM에 대해서는 참고자료의 아티클을 통해 조금 더 자세하게 정리해보도록 하자.
 
 # JVM Architecture diagram
 ![jvm-architecture](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216627&authkey=%21AJfB9y6x1lpOWrA&width=1155&height=650)
  
 ## 1. .java 파일의 컴파일: .class 파일
 
-```
+```bash
 javac vendingMachine.java
 
 javac vendingMachineMain.java
@@ -34,9 +34,7 @@ Class 파일은 바이트코드로 이루어져 있으며, 바이트코드는 �
 ![jvm-process](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216623&authkey=%21AK_6Ec3ONKHxLoI&width=615&height=109)
 Working of Java Virtual Machine(JVM)
 
-```
-java vendingMachineMain
-```
+→ ``java vendingMachineMain``
 
 ### 2-1. .class 파일을 실행
 

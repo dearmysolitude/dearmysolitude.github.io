@@ -59,15 +59,18 @@ c는 고정 공간(상수)를, Sp(n)은 가변 공간을 나타낸다.
  
 ![bigO](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216612&authkey=%21ANsaBynlZyIMGtA&width=359&height=215)
 
-    정의: 모든 N>N0 에 대하여, f(N) ≤ k⋅g(N) 이 성립하는 양의 상수 k 와 N0​ 가 존재하면, f(N) = O(g(N)) 이다.
+정의: 모든 N>N0 에 대하여, f(N) ≤ k⋅g(N) 이 성립하는 양의 상수 k 와 N0​ 가 존재하면, f(N) = O(g(N)) 이다.
 
 계수와 낮은 차수의 항을 제외시키는 방법으로 시간 복잡도를 표현한다. 즉, 해당 알고리즘이 나타내어진 차수이거나 그보다 낮은 차수의 시간복잡도를 가진다는 의미이다: 그 즉슨, Big-O 표기법은 알고리즘의 최악의 경우를 표현한다.
 
 실제 상황에서 알고리즘의 속도는 정확하지 않을 수 있지만, 이 방법을 사용하는 이유는, n에 대한 일반적인 추세를 확인할 수 있기 때문이다: 입력값의 변화에 따른 알고리즘의 시간 소비를 예측할 수 있다.
 
 Big-O 계산으로는 O(5n +7) = O(5n) = O(n), O(n² + 25) = O(n²) 를 예로 들 수 있다. 하지만 여기에서 등호는 '같다(equals)'가 아닌 '이다(is)', '정도이다(approx)' 라고 해석해야 혼란을 피할 수 있다.(여기에서의 직관적으로 '같다'라고 판단하는 데에서 Big-O의 오용이 발생했고, 이로 인해 Big-θ notation이 등장하였다.)
+
 ![bigO](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216610&authkey=%21AEAWPiCbG3GkIsg&width=426&height=29)
-이 때 Big-O는 
+
+이 때 Big-O는
+
 ![bigO](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216639&authkey=%21AL6lGxIhDbWdoJc&width=59&height=27)
  
 ## 시간 복잡도의 평가: 데이터 수에 따른 처리 시간 증가/수렴
@@ -89,7 +92,7 @@ def hello_world():
 #### O(n)
 
 선형 시간(Linear time): 입력이 증가하면 시간 또는 메모리 사용이 선형적으로 증가한다.
-```
+```python
 def print_each(li):
     for item in li:
         print(item)
@@ -97,7 +100,7 @@ def print_each(li):
 #### O(log n), O(n log n)
 
 로그 시간(Logarithmic time): 입력 값의 크기가 증가함에 따라 실행 시간은 로그 함수 처럼 증가한다. 주로 입력 크기에 따라 처리 시간이 증가하는 정렬 알고리즘에서 많이 사용된다. 아래는 이진 탐색의 예.
-```
+```python
 def binary_search(li, item, first=0, last=None):
 	if not last:
 		last = len(li)
@@ -116,7 +119,7 @@ def binary_search(li, item, first=0, last=None):
 #### O( n² )
 
 제곱 시간(Square time): 반복문이 두 번 있는 케이스가 대표적이다.
-```
+```python
 def print_each_n_times(li):
     for n in li:
         for m in li:
