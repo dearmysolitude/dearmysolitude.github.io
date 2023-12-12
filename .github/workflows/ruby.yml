@@ -30,11 +30,11 @@ jobs:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Install dependencies
-      run: |
-      gem install bundler
-      bundle install --jobs 4 --retry 3
+      run: | 
+        gem install bundler
+        bundle install --jobs 4 --retry 3
 
     - name: Send data to Algolia
       run: |
-      bundle exec jekyll algolia --config _config.yml
+        bundle exec jekyll algolia --config _config.yml
       env: ${{ secrets.ALGOLIA_API_KEY }}
