@@ -37,3 +37,4 @@ jobs:
     - name: Send data to Algolia
       run: |
       bundle exec jekyll algolia --config _config.yml
+      env: ${{ secrets.ALGOLIA_API_KEY }}
