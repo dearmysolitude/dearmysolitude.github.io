@@ -92,12 +92,12 @@ GenericBox
 
 ## 컬렉션 프레임워크(Collection Framework)
 - 앞서 살펴본 제네릭 문법은 일부분: 컬렉션 프레임워크를 이해하기 위함
-- Java Collections Framework 라고 불리는 Collections API는 Java 2 부터 추가된 자료구조 클래스 패키지
+- Java Collection Framework 라고 불리는 Collection API는 Java 2 부터 추가된 자료구조 클래스 패키지
 - ✨ 자료(Data)를 다룰 때 꼭 필요한 클래스의 모음이다. ✨
 
 <figure style="width: 85%" class="align-center">
   <img src="https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216708&authkey=%21AP_6naBLifmlrH0&width=787&height=663" alt="">
-  <figcaption>Java의 Collections Framework</figcaption>
+  <figcaption>Java의 Collection Framework</figcaption>
 </figure>
 
 ### Collection 인터페이스(java.util.Collection)
@@ -115,9 +115,9 @@ GenericBox
 - 컬렉션 인터페이스가 의존한다(`--->`).
 - Iterator 패턴을 적용한다.
 - 메서드
-  - `hasNext()`:
-  - `next()`: 
-  - `remove()`: 
+  - `hasNext()`
+  - `next()`
+  - `remove()` 
 
 ✨참고✨ Iterator 패턴: 모든 요소의 처리를 목적으로하는 디자인 패턴
 
