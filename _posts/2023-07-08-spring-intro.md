@@ -69,8 +69,8 @@ Advanced Spring Container with enterprise-specific features
 ### 뭘 쓸까?
 
 Most enterprises applications use **Appliciation Context**
-	- web applications, web services 에 추천된다.
-	- REST API나 microservices
+- web applications, web services 에 추천된다.
+- REST API나 microservices
 
 ## Coupling
 
@@ -114,9 +114,9 @@ Spring에서, 응용 프로그램의 기반을 형성하는 객체들이 Spring 
 
 ## 실습
 
-<figure style="width: 85%" class="align-center">
+<figure style="width: 30%" class="align-center">
   <img src="https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216714&authkey=%21ALbq_R2u_lT0Q44&width=173&height=457" alt="">
-  <figcaption>IoC Container</figcaption>
+  <figcaption>예제 코드의 구조</figcaption>
 </figure>
 
 - Design: Game Runner가 다양한 게임들을 동작시키는 것.
@@ -157,15 +157,13 @@ public class App03GamingSpringBeans {
 
 `App03GamingSpringBeans`클래스는 Spring 어플리케이션 컨텍스트를 생성하고, 해당 컨텍스트에서 bean객체를 검색하는 역할을 한다. `AnnotationConfigApplicationContext` 클래스의 인스턴스를 생성할 때, GamingConfiguration.class를 전달하여 해당 클래스 구성정보를 통해 애플리케이션 컨텍스트를 생성한다. 
 
-이해가 되지 않아 조금 살펴보았다.
-
-- `AnnotationConfigApplicationContext`: 이 클래스는 Spring의 Java 기반 구성을 사용하여 애플리케이션 컨텍스트를 생성하는 데 사용됩니다.
-- `try-with-resources` 문을 사용하여 `context` 변수에 애플리케이션 컨텍스트 인스턴스를 할당. 이렇게 하면 `try` 블록이 종료될 때 자동으로 `context` 변수가 닫히게 됩니다.
+- `AnnotationConfigApplicationContext`: Spring의 Java 기반 구성을 사용하여 애플리케이션 컨텍스트를 생성하는 데 사용한다.
+- `try-with-resources` 문을 사용하여 `context` 변수에 애플리케이션 컨텍스트 인스턴스를 할당. 이렇게 하면 `try` 블록이 종료될 때 자동으로 `context` 변수가 닫히게 된다.
     - `try-with-resources`문: Java 7에서 도입된 자원 관리를 위한 구문이다.
     - try 블록 내의 모든 자원을 자동으로 닫아준다. 이 자원은 프로그램이 끝난 후에 반드시 닫혀야 하는 객체임을 의미한다.
     - 이러한 자원은 `java.lang.AutoClosable`인터페이스를 구현한 객체이거나 이 인터페이스를 구현한 모든 객체를 포함한 `java.lang.Closable`인터페이스를 구현한 객체일 수 있다.
     - `finally`구문을 사용하여 명시적으로 닫는 것보다 코드가 간결해지고, 자원 누수를 방지할 수 있다. 이 경우에는 예외로 인한 중단에도 자원이 닫히게 된다.
-- 그 다음으로, `context.getBean(BusinessCalculationService.class)`** 메소드를 호출하여 `GamingConsole`, `GameRunner` 타입의 bean 객체를 검색하고, 이 객체의 `up()`, `run()` 메소드를 호출하여 결과를 출력한다.
+- 그 다음으로, `context.getBean()` 메소드를 호출하여 `GamingConsole`, `GameRunner` 타입의 bean 객체를 검색하고, 이 객체의 `up()`, `run()` 메소드를 호출하여 결과를 출력한다.
 - `var` 자료형
     - 컴파일러가 프로그래머의 의도를 추측하여 타입을 추론하는데 사용된다.
     - [이를 타입 추론이라고 한다.](https://digiconfactory.tistory.com/entry/%EC%9E%90%EB%B0%94-10-var-%EC%9D%98-%EC%82%AC%EC%9A%A9-%EC%9E%90%EB%A3%8C%ED%98%95-%EC%97%86%EC%9D%B4-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
