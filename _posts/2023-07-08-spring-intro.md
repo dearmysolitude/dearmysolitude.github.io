@@ -16,21 +16,61 @@ tags:
 
 Spring은 각종 개발에 대한 core feature를 제공한다. Spring boot은 spring을 통해 쉽게 접근할 수 있다.
 
-## IoC Container
+## Spring Container
 
-IoC(Inversion of Control) = DI(dependency injection)
+- Spring Bean과 그 life cycle을 관리한다(클래스 인스턴스를 생성하고, 연결하고, 생성부터 파괴까지).
+- Spring Container(IoC Container)에는 bean factory와 application context가 있음.
+- Dependency Injection을 사용하여 애플리케이션을 구성하는 컴포넌트를 관리한다.
+- IoC Container를 포괄하는 더 큰 개념
 
 <figure style="width: 85%" class="align-center">
   <img src="https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216713&authkey=%21AMnz2r_HBzykDMU&width=292&height=333" alt="">
   <figcaption>IoC Container</figcaption>
 </figure>
 
-Spring Container: Spring Bean과 그 life cycle을 관리한다
+**IoC Container**
+IoC(Inversion of Control) = DI(dependency injection)
+- 애플리케이션의 객체를 인스턴스화하고, 구성하며, 이들 객체 간의 의존성을 조립하는 역할을 한다.
+- XML, Java주석, Java 코드로 제공된 구성 메타데이터에서 빈의 정보를 얻는다.
 
-1. **Bean Factory**: Basic Spring Container
-2. **Application Context**: Advanced Spring Container with enterprise-specific features
+> **Inversion of Control**
+>
+> 소프트웨어 엔지니어링에서 사용되는 디자인 패턴으로, 프로그램 흐름 제어를 사용자 정의 코드에서 제네릭 프레임워크로 이전하는 것을 의미한다. 이로 인해 흐름 제어가 반전되어 inversion of control이라고 한다.
+>
+> 절차적 프로그래밍에서는 프로그램의 사용자 정의 코드가 일반 작업을 처리하기 위해 라이브러리를 호출하지만, IoC에서는 프레임워크가 사용자 정의 코드를 호출한다. 
+>
+> **Dependency Injection**
+>
+> 객체가 필요로하는 다른 객체(의존성)을 제공하는 소프트웨어 엔지니어링 기법. 사용할 수 있는 객체(서비스)이다.
+> Inversion of Control의 구체화된 기법이다.
+>
+> [What is inversion of control - educative](https://www.educative.io/answers/what-is-inversion-of-control)
 
-⇒ most enterprises applications use Appliciation context: web applications, web services
+### **Bean Factory**
+
+Basic Spring Container
+
+### **Application Context**
+
+Advanced Spring Container with enterprise-specific features
+	- Easy to use in web applications
+	- Easy internalization
+	- Easy integration with Spring AOP
+
+- Bean Factory의 하위 인터페이스로, Bean Factory 의 모든 기능을 포함하며, 추가로 엔터프라이즈 특정 기능을 제공한다.
+- 추가 기능은 위에서 언급한 Spring의 AOP와의 간편한 통합, 메세지 리소스 처리(국제화를 위한), 이벤트 발행, 웹 애플리케이션에 대한 애플리케이션 계층 특정 컨텍스트(예: WebApplicationContext) 등이 포함된다.
+
+발췌
+
+[Spring Application Context - Baeldung](https://www.baeldung.com/spring-application-context)
+
+[Difference Between Inversion of Control and Dependency Injection - geeksforgeeks](https://www.geeksforgeeks.org/spring-difference-between-inversion-of-control-and-dependency-injection/)
+
+### 뭘 쓸까?
+
+Most enterprises applications use **Appliciation Context**
+	- web applications, web services 에 추천된다.
+	- REST API나 microservices
 
 ## Coupling
 
@@ -245,7 +285,7 @@ Loose bind를 위해 `GamingConsole`을 통해 동작을 실행하는 `GameRunne
 - `@Bean`은 메서드 수준에서 사용되며, XML의 `<bean/>`요소와 직접적으로 연관이 있다.
 - `@Component`나 `@Configuration`으로 주석이 달린 클래스에서 사용할 수 있다.
 - 이 어노테이션을 붙이면 Spring이 객체를 관리하게 된다.
-    - Application Context에 등록한다. → Application Context에 대해서는 별도의 문서에서 살펴보자.
+    - Application Context에 등록한다.
     - 빈의 이름은 기본적으로 메서드 이름과 동일
 - Spring 객체의 생성 방법에는 다음과 같이 3 가지 방법이 있다.
 
