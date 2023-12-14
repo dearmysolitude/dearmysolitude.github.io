@@ -10,7 +10,7 @@ main:
     url: /tags/
 
 sidebar:
-  - title: "Projects"
+  - title: "Sort by Categories"
     children:
       - title: "Computer Science"
         url: /computer-science/

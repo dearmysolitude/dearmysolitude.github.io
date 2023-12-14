@@ -8,3 +8,6 @@ toc_sticky: true
 toc_ads : true
 taxonomy: Computer Science
 ---
+
+{% assign posts = site[`Computer Science`] %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
