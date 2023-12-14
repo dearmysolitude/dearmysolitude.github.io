@@ -1,14 +1,20 @@
 # main links
 main:
+  - title: "🌌Home"
+    url: /
   - title: "Projects"
     url: /projects/
-  - title: "CS"
-    url: /computer-science/
-  - title: "Java"
-    url: /java/
-  - title: "Spring"
-    url: /spring/
   - title: "Category"
     url: /categories/
   - title: "Tags"
     url: /tags/
+
+sidebar:
+  - title: "Projects"
+    children:
+      - title: "Computer Science"
+        url: /computer-science/
+      - title: "Java"
+        url: /java/
+      - title: "Spring"
+        url: /spring/

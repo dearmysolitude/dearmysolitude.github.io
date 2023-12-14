@@ -3,21 +3,21 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #edebea !default;
-$text-color: #454f44 !default;
-$muted-text-color: #696969 !default;
-$primary-color: rgb(73, 94, 177) !default;
-$border-color: mix(#c7c7c7, #629776, 60%) !default;
-$link-color: #f1747e !default;
+$background-color: #f2f1ee !default;
+$text-color: #4d4537 !default;
+$muted-text-color: #11694c !default;
+$primary-color: rgb(115, 132, 199) !default;
+$border-color: mix(#c7c7c7, #57906e, 30%) !default;
+$link-color: #ed4a42 !default;
 $masthead-link-color: $primary-color !default;
-$masthead-link-color-hover  : mix(#ffffff, $link-color, 25%) !default;
+$masthead-link-color-hover  : mix(#ffffff, $link-color, 20%) !default;
 $navicon-link-color-hover: mix(#c4c4c4, $text-color, 80%) !default;
 $link-color-hover           : mix(#000, $link-color, 20%) !default;
-$footer-background-color: mix($text-color, #b9b9b9, 30%) !default;
-$code-background-color: mix(#656666, $background-color, 10%) !default;
+$footer-background-color: mix($primary-color, #b2ccd5, 40%) !default;
+$code-background-color: mix(#b8b8b8, $background-color, 10%) !default;
 
 .page__footer {
-  color: rgb(220, 220, 220) !important; // override
+  color: rgb(255, 255, 255) !important; // override
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
