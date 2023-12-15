@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Spring
+  - Java
 tags:
 ---
 ## 패키지 경로
