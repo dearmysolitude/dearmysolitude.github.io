@@ -1,6 +1,6 @@
 ---
 title: "Algorithm"
-permalink: /computer-science/algorithm
+permalink: /computer-science/algorithm/
 layout: category
 author_profile: true
 sidebar_main: true

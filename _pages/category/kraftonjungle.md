@@ -1,6 +1,6 @@
 ---
 title: "Krafton Jungle"
-permalink: /activities/kraftonjungle
+permalink: /activities/kraftonjungle/
 layout: category
 author_profile: true
 sidebar_main: true

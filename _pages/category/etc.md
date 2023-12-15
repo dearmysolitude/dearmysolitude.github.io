@@ -1,6 +1,6 @@
 ---
 title: "Etc"
-permalink: /activities/etc
+permalink: /activities/etc/
 layout: category
 author_profile: true
 sidebar_main: true
