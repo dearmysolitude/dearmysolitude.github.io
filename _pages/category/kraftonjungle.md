@@ -1,10 +1,10 @@
 ---
-title: "Java"
-permalink: /programming/java/
+title: "Krafton Jungle"
+permalink: /activities/kraftonjungle
 layout: category
 author_profile: true
 sidebar_main: true
 toc_sticky: true
 toc_ads : true
-taxonomy: Java
+taxonomy: Krafton Jungle
 ---

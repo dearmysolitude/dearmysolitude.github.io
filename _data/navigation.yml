@@ -2,19 +2,53 @@
 main:
   - title: "🌌Home"
     url: /
-  - title: "Projects"
-    url: /projects/
-  - title: "Category"
-    url: /categories/
+  - title: "Project"
+    url: /activities/project/
   - title: "Tags"
     url: /tags/
 
 sidebar:
-  - title: "Sort by Categories"
+  - title: "Programming"
     children:
-      - title: "Computer Science"
-        url: /computer-science/
-      - title: "Java"
-        url: /java/
-      - title: "Spring"
-        url: /spring/
+      - title: "☕ Java"
+        url: /programming/java/
+        category: "Java"
+      - title: "🍃 Spring"
+        url: /programming/spring/
+        category: "Spring"
+      - title: "📐 Design Pattern"
+        url: /programming/design-pattern
+        category: "Design Pattern"
+      - title: "🌝 Linux"
+        url: /programming/linux
+        category: "Linux"
+      - title: "☁️ Git"
+        url: /programming/git
+        category: "Git"
+
+  - title: "Computer Science"
+    children:
+      - title: "🖥️ Operating System"
+        url: /computer-science/os/
+        category: "Operating System"
+      - title: "🌐 Network"
+        url: /computer-science/network/
+        category: "Network"
+      - title: "⌛ Algorithm"
+        url: /computer-science/algorithm/
+        category: "Algorithm"
+      - title: "🗄️ DataBase"
+        url: /computer-science/db/
+        category: "DataBase"
+
+  - title: "Activities"
+    children:
+      - title: "🗺️ Project"
+        url: /activities/project/
+        category: "Project"
+      - title: "👨‍💻 Krafton Jungle"
+        url: /activities/kraftonjungle/
+        category: "Krafton Jungle"
+      - title: "🪄 Etc"
+        url: /activities/etc/
+        category: "Etc"

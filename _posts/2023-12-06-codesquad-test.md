@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Activities
+  - Etc
 tags:
   - 코드스쿼드
   - 과제

@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Computer Science
+  - DataBase
 tags:
   - DB
   - 동시성

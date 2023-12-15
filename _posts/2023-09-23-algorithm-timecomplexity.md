@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Computer Science
+  - Algorithm
 tags:
   - Algorithm
   - Data Structure

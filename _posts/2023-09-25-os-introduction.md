@@ -6,9 +6,8 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Computer Science
-tags:
   - Operating System
+tags:
 ---
 
 > [운영체제 (이화여자대학교 반효경 교수)](http://www.kocw.net/home/cview.do?cid=3646706b4347ef09)

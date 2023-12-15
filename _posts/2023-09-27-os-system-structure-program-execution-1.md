@@ -6,9 +6,8 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Computer Science
-tags:
   - Operating System
+tags:
 ---
 # 컴퓨터 시스템 구조
 ![System-structure](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216635&authkey=%21AAklKiqewBBcNUw&width=442&height=334)
