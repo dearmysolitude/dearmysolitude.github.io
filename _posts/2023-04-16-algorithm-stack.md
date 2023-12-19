@@ -13,7 +13,7 @@ tags:
 
 웹브라우저 방문 기록 중 뒤로가기, 실행 취소, 역순 문자열 만들기, 후위 표기법
 
-<figure style="width: 85%" class="align-center">
+<figure style="width: 60%" class="align-center">
   <img src="https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216721&authkey=%21AFhaMwYATD7p2eI&width=694&height=1020" alt="">
   <figcaption>Stack</figcaption>
 </figure> 
@@ -65,8 +65,8 @@ top을 제거 후 성공을 반환한다.
 
 ```python
 def pop(self)
-		try:   # pop할 아이템이 없으
-				return self.items.pop()
+		try:   # pop할 아이템이 없으면
+			return self.items.pop()
 		except indexError: 발생
 				print("stack is empty")
 ```
