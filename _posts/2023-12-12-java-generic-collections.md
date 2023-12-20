@@ -8,6 +8,7 @@ toc_sticky: true
 categories:
   - Java
 tags:
+  - Collections
 ---
 ## Generic
 자바에서 사용하는 제내릭 기법과 collections프레임워크를 사용하는 방법

@@ -9,6 +9,9 @@ categories:
   - C
 tags:
   - pointer
+  - array
+  - 포인터
+  - 배열
 ---
 
 ## 배열

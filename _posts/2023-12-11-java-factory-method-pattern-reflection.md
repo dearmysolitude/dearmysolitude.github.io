@@ -8,8 +8,12 @@ toc_sticky: true
 categories:
   - Java
 tags:
+  - Design Pattern
   - 디자인 패턴
-  - Design pattern
+  - Factory method Pattern
+  - 팩토리 메서드 패턴
+  - Reflection
+  - 리플렉션
 ---
 ## 팩토리 메서드 패턴
 객체지향 디자인 패턴이다. 가상 생성자 패턴(Virtual Constructor Pattern)이라고도 한다. 부모 클래스에 알려지지 않은 구체 클래스를 생성하는 패턴이며, 자식 클래스가 어떤 객체를 생성할지를 결정하도록 하는 패턴이다.
