@@ -110,6 +110,12 @@
   .archive__item-excerpt {
     margin-bottom: 0;
   }
+
+  .archive__item-teaser {
+    img {
+      width: 30%;
+    }
+  }
 }
 
 /* Algolia search */
