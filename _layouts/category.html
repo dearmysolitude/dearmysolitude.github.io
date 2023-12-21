@@ -9,4 +9,7 @@ layout: archive
   {% include posts-category.html taxonomy=page.taxonomy type=entries_layout %}
 </div>
 
-<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+{% assign post_count = site.categories[page.taxonomy] | size %}
+{% if post_count >= 5 %}
+  <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+{% endif %}

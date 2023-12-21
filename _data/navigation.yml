@@ -2,7 +2,7 @@
 main:
   - title: "🌌Home"
     url: /
-  - title: "Portfolio"
+  - title: "🌃Portfolio"
     url: /portfolio/
   - title: "Tags"
     url: /tags/
@@ -44,8 +44,8 @@ sidebar:
   - title: "Activities"
     children:
       - title: "👨‍💻 Krafton Jungle"
-        url: /kraftonjungle/
+        url: /activities/kraftonjungle/
         category: "Krafton Jungle"
       - title: "🪄 Etc"
-        url: /etc/
+        url: /activities/etc/
         category: "Etc"
