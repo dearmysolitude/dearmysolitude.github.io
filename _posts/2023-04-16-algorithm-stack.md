@@ -8,6 +8,7 @@ toc_sticky: true
 categories:
   - Algorithm
 tags:
+  - Data Structure
 ---
 데이터를 차곡차곡 쌓아올린 형태의 자료구조. 가장 마지막에 삽입된 자료가 가장 먼저 삭제되는 구조. FIFO(Last In First Out). 꽉 찬 상태를 overflow, 완전히 빈 상태를 underflow라고 한다. 삽입(Push)과 삭제(Pop)모두 top에서 일어나기 때문에 시간복잡도는 O(1)이다.
 
