@@ -44,7 +44,7 @@ sidebar:
   - title: "Activities"
     children:
       - title: "👨‍💻 Krafton Jungle"
-        url: /activities/kraftonjungle/
+        url: /activities/jungle/
         category: "Krafton Jungle"
       - title: "🪄 Etc"
         url: /activities/etc/
