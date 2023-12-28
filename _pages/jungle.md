@@ -1,10 +1,7 @@
 ---
 title: "Krafton Jungle 모아보기"
-permalink: /activities/jungle
-layout: archive
-
-toc: true
-toc_sticky: true
+permalink: /activities/jungle/
+layout: collection
 ---
 
 {% for category in site.categories %}
