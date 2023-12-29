@@ -6,10 +6,9 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Etc
+  - Test
 tags:
   - 코드스쿼드
-  - 과제
 ---
 
 12월 1일부터 12월 5일까지 진행된 2023년 코드스쿼드 선발 과제 진행 후기입니다.

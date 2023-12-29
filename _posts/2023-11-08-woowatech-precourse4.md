@@ -6,10 +6,9 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Etc
+  - Test
 tags:
   - 우아한 테크코스
-  - 과제
 ---
 
 우테코 프리코스 4: java-christmas를 구현하며 생각해본 내용을 정리하였습니다.

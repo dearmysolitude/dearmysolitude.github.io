@@ -5,6 +5,17 @@ layout: collection
 ---
 
 {% for category in site.categories %}
+  {% if category[0] == 'Krafton Jungle' %}
+<h2>{{ category[0] }}</h2>
+    {% for post in category[1] %}
+      {% for tag in post.tags %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% for category in site.categories %}
   {% assign has_tag = false %}
 
   {% for post in category[1] %}
