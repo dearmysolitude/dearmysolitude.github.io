@@ -26,3 +26,11 @@ bundle exec jekyll serve
 - ~~색 테마 변경~~
 
 - ~~사이트 검색, 게시물 안에서 미리 보기로 나타나는 기본 이미지 변경/삭제 혹은 비활성화~~ 이미지 축소
+
+- ~~Go-to-top 버튼 추가~~
+
+- 카테고리 페이지에 pagination 적용
+
+### 참고 사이트
+- 
+- https://chaelin0722.github.io/categories/Blog
