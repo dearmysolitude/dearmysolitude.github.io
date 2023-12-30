@@ -32,5 +32,5 @@ bundle exec jekyll serve
 - 카테고리 페이지에 pagination 적용
 
 ### 참고 사이트
-- 
+
 - https://chaelin0722.github.io/categories/Blog
