@@ -13,7 +13,10 @@ tags:
   - Time Complexity
   - Krafton Jungle
 ---
-![bigO](https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216611&authkey=%21APNDcVe-IhUiceA&width=680&height=697)
+<figure style="width: 75%" class="align-center">
+  <img src="https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216611&authkey=%21APNDcVe-IhUiceA&width=680&height=697" alt="">
+  <figcaption>Big O</figcaption>
+</figure>
 
 ## 효율적인 알고리즘
 
@@ -130,12 +133,12 @@ def print_each_n_times(li):
 
 ### 시간 복잡도를 구하는 요령(Tip)
 
-    하나의 루프를 사용하여 단일 요소 집합을 반복 하는 경우 : O (n)
-    컬렉션의 절반 이상 을 반복 하는 경우 : O (n / 2) -> O (n)
-    두 개의 다른 루프를 사용하여 두 개의 개별 콜렉션을 반복 할 경우 : O (n + m) -> O (n)
-    두 개의 중첩 루프를 사용하여 단일 컬렉션을 반복하는 경우 : O (n²)
-    두 개의 중첩 루프를 사용하여 두 개의 다른 콜렉션을 반복 할 경우 : O (n * m) -> O (n²)
-    컬렉션 정렬을 사용하는 경우 : O(n*log(n))
+- 하나의 루프를 사용하여 단일 요소 집합을 반복 하는 경우 : O (n)
+- 컬렉션의 절반 이상 을 반복 하는 경우 : O (n / 2) -> O (n)
+- 두 개의 다른 루프를 사용하여 두 개의 개별 콜렉션을 반복 할 경우 : O (n + m) -> O (n)
+- 두 개의 중첩 루프를 사용하여 단일 컬렉션을 반복하는 경우 : O (n²)
+- 두 개의 중첩 루프를 사용하여 두 개의 다른 콜렉션을 반복 할 경우 : O (n * m) -> O (n²)
+- 컬렉션 정렬을 사용하는 경우 : O(n*log(n))
 
 #### 정렬 알고리즘 비교
 

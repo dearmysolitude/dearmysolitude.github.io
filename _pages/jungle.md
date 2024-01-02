@@ -1,19 +1,28 @@
 ---
-title: "Krafton Jungle 모아보기"
+title: "Krafton Jungle"
 permalink: /activities/jungle/
-layout: collection
+layout: single
+
+toc: true
+toc_sticky: true
+
 ---
 
+## Jungle Log
 {% for category in site.categories %}
   {% if category[0] == 'Krafton Jungle' %}
-<h2>{{ category[0] }}</h2>
     {% for post in category[1] %}
-      {% for tag in post.tags %}
-        {% include archive-single.html %}
-      {% endfor %}
+      {% include archive-single.html %}
     {% endfor %}
   {% endif %}
 {% endfor %}
+
+## Jungle Book
+
+
+<br> 
+
+## 정글 tag 모아보기
 
 {% for category in site.categories %}
   {% assign has_tag = false %}
@@ -27,7 +36,7 @@ layout: collection
   {% endfor %}
 
   {% if has_tag %}
-<h2>{{ category[0] }}</h2>
+### {{ category[0] }}
     {% for post in category[1] %}
       {% for tag in post.tags %}
         {% if tag == 'Krafton Jungle' %}
