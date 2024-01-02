@@ -16,9 +16,6 @@ sidebar:
       - title: "🍃 Spring"
         url: /programming/spring/
         category: "Spring"
-      - title: "📐 Design Pattern"
-        url: /programming/design-pattern
-        category: "Design Pattern"
       - title: "🌝 Linux"
         url: /programming/linux
         category: "Linux"
