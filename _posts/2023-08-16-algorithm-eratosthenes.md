@@ -1,6 +1,6 @@
 ---
 title: "Seive of Eratosthenes"
-excerpt: "큐!"
+excerpt: "에라토스테네스의 체를 사용한 문제 풀이"
 
 toc: true
 toc_sticky: true

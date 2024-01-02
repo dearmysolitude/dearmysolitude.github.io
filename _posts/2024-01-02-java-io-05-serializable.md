@@ -75,7 +75,7 @@ public class ObjectInputExam1 {
 - 원래 형태대로 형변환
 - 파일을 Object로 읽어 User로 형변환
 
-### 
+## 리스트도 직렬화가 가능하다
 
 ```java
 public class ObjectOutputExample2 {
@@ -112,7 +112,7 @@ public class ObjectInputExam2 {
 }
 ```
 
-## 깊은 복사를 위한 객체직렬화
+## 깊은 복사를 위한 객체 직렬화
 
 ```java
 public class ObjectInputOutExam {
