@@ -29,6 +29,11 @@ tags:
   - 미니 프로젝트
 ---
 
+## 구현 환경
+
+- Java 17, Gradle 8.4, IntelliJ 2023.3
+
+
 ## 코드 스니펫
 
 {% include gallery %}

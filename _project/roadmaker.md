@@ -1,5 +1,5 @@
 ---
-title: "Roadmaker"
+title: "팀 프로젝트: Roadmaker"
 excerpt: "GPT API를 활용한 로드맵 생성 서비스"
 header:
   image: /assets/images/roadmaker/roadmaker-title.png
@@ -23,6 +23,8 @@ gallery:
     alt: "세부 화면"
 toc: true
 toc_sticky: true
+tag:
+  - Krafton Jungle
 ---
 ## 프로젝트 개요 및 특징
 

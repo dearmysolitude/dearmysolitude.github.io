@@ -2,8 +2,8 @@
 main:
   - title: "🌌Home"
     url: /
-  - title: "🌃Portfolio"
-    url: /portfolio/
+  - title: "🌃Projects"
+    url: /project/
   - title: "Tags"
     url: /tags/
 
