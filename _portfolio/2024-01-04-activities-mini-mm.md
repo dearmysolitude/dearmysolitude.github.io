@@ -1,0 +1,34 @@
+---
+title: "미니 프로젝트: 회원 정보 관리"
+excerpt: "객체 직렬화를 통한 데이터 복사 간소화"
+header:
+  teaser: /assets/images/mini_mm/mm_input.png
+sidebar:
+  - title: "개요"
+    image: /assets/images/mini_mm/mm_input.png
+    image_alt: "logo"
+    text: "[즐거운 자바 강좌](https://www.youtube.com/watch?v=HEsAMjd8zpo)의 미니 프로젝트. 회원 정보를 파일로 저장, 수정하는 프로그램." 
+  - title: "특징"
+    text: "객체 직렬화를 통해 입력/출력을 간단하게 처리"
+  - title: "기한"
+    text: "2024년 01월 03일 ~ 2024년 01월 04일"
+gallery:
+  - url: /assets/images/mini_mm/mm_input.png
+    image_path: assets/images/mini_mm/mm_input.png
+    alt: "코드 1"
+  - url: /assets/images/mini_mm/mm_output.png
+    image_path: assets/images/mini_mm/mm_output.png
+    alt: "코드 2"
+toc: true
+toc_sticky: true
+tags:
+  - 즐거운 자바
+  - 객체 직렬화
+  - Java
+  - 자바
+  - 미니 프로젝트
+---
+
+## 코드 스니펫
+
+{% include gallery %}

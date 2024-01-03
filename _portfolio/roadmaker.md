@@ -21,6 +21,8 @@ gallery:
   - url: /assets/images/roadmaker/roadmaker-detail.png
     image_path: assets/images/roadmaker/roadmaker-detail.png
     alt: "세부 화면"
+toc: true
+toc_sticky: true
 ---
 ## 프로젝트 개요 및 특징
 
