@@ -5,7 +5,6 @@ layout: single
 
 toc: true
 toc_sticky: true
-
 ---
 
 ## Jungle Log
@@ -37,13 +36,13 @@ toc_sticky: true
 
   {% if has_tag %}
 ### {{ category[0] }}
-    {% for post in category[1] %}
-      {% for tag in post.tags %}
-        {% if tag == 'Krafton Jungle' %}
-          {% include archive-single.html %}
-        {% endif %}
-      {% endfor %}
+  {% for post in category[1] %}
+    {% for tag in post.tags %}
+      {% if tag == 'Krafton Jungle' %}
+        {% include archive-single.html %}
+      {% endif %}
     {% endfor %}
+  {% endfor %}
   {% endif %}
 
 {% endfor %}

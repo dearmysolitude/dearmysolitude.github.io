@@ -4,10 +4,11 @@ excerpt: "코드스쿼드 선발 과제 / 1차 선발 합격"
 header:
   teaser: /assets/images/mini_cardgame/screen.png
 sidebar:
-  - title: "개요"
+  - title: "설명"
     image: /assets/images/mini_cardgame/cardgame.png
     image_alt: "logo"
-    text: "[코드 스쿼드 마스터즈](https://www.codesquad.kr/) 선발 과제. 카드 뒤집기 게임을 Java로 구현. 선발 테스트에 합격한 프로젝트." 
+    text: "[코드 스쿼드 마스터즈](https://www.codesquad.kr/) 선발 과제. 카드 뒤집기 게임을 Java로 구현. 선발 테스트에 합격한 프로젝트."
+  - text: "[Gist 링크](https://gist.github.com/dearmysolitude/467392c4331d8bd348be3b2fee61ab90)"
   - title: "특징"
     text: "과제를 Gist 로 제출하는 것을 요구하였으므로 모두 한 파일에 구현. 모든 요구사항 구현 완료. 여러 예외처리 추가. Java UI는 처음 사용하였기 때문에 모양이 완벽하지 않음."
   - title: "기한"
@@ -23,7 +24,6 @@ tags:
 
 12월 1일부터 12월 5일까지 진행된 2023년 코드스쿼드 선발 과제 후기입니다.
 
-[Gist 링크](https://gist.github.com/dearmysolitude/467392c4331d8bd348be3b2fee61ab90)
 
 # Intro
 

@@ -5,12 +5,15 @@ header:
   image: /assets/images/roadmaker/roadmaker-title.png
   teaser: assets/images/roadmaker/roadmaker-logo.png
 sidebar:
-  - title: "Role"
+  - title: "담당 역할"
     image: /assets/images/roadmaker/roadmaker-logo.png
     image_alt: "logo"
     text: "Back-End Developer"
-  - title: "Excerpt"
+  - title: "설명"
     text: "GPT API를 활용한 로드맵 생성 서비스"
+  - text: "[서비스 링크](http://roadmaker.site)"
+  - text: "[Github 링크](https://github.com/road-maker)"
+  - text: "[포스터: 구글 드라이브](https://drive.google.com/file/d/1fHiA1xgeR228jUKmHyoaYXZ9noIdgeF2/view?usp=drive_link)"
 gallery:
   - url: /assets/images/roadmaker/roadmaker-front.png
     image_path: assets/images/roadmaker/roadmaker-front.png
@@ -62,15 +65,6 @@ GPT API를 사용하여 개발자를 위한 로드맵을 작성해주는 웹 서
 ## 실제 서비스
 
 {% include gallery caption="서비스 화면" %}
-
-
-## 링크
-
-[서비스 링크](http://roadmaker.site)
-
-[Github 링크](https://github.com/road-maker)
-
-[포스터: 구글 드라이브](https://drive.google.com/file/d/1fHiA1xgeR228jUKmHyoaYXZ9noIdgeF2/view?usp=drive_link)
 
 <br>
 

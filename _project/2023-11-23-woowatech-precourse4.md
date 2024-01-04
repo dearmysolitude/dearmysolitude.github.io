@@ -4,11 +4,12 @@ excerpt: "우테코 프리코스 4 주차 과제"
 header:
   teaser: /assets/images/mini_woowapre/woowa-head.png
 sidebar:
-  - title: "개요"
+  - title: "설명"
     image: /assets/images/mini_woowapre/woowacourse.png
     image_alt: "logo"
     text: "[우아한 테크코스](https://www.woowacourse.io/) 선발 과제."
-  - text: "크리스마스 이벤트로 12월 중 날짜와 원하는 메뉴를 정하면, 적용 이벤트/할인 가격/증정품/뱃지를 알려주는 프로그램. Java로 구현." 
+  - text: "크리스마스 이벤트로 12월 중 날짜와 원하는 메뉴를 정하면, 적용 이벤트/할인 가격/증정품/뱃지를 알려주는 프로그램. Java로 구현."
+  - text: "[Github Repository](https://github.com/dearmysolitude/java-christmas-6-dearmysolitude)"
   - title: "특징"
     text: "모든 요구사항 구현 완료. 테스트 코드와 예외 처리 구현. 요구 사항에 따라 메서드는 최소의 기능을 하며, else if 나 3항 연산자를 사용하지 않음."
   - title: "기한"
@@ -35,8 +36,6 @@ tags:
 우테코 프리코스 4: java-christmas를 구현하며 생각한 내용을 정리하였습니다.
 
 >이 단계에서는 문제 해결을 위해 1단계부터 지금까지 피드백 받은 내용을 적용하고 문제 해결에 최우선으로 초점을 맞추어 구현하였습니다. MVC 모델을 **완전하게 적용하지 않았**으므로 감안하고 보시면 감사하겠습니다.
-
-[Github Repository](https://github.com/dearmysolitude/java-christmas-6-dearmysolitude)
 
 ## 구현 환경
 Java 17, Gradle 8.2, IntelliJ 2023.2.2
