@@ -12,7 +12,8 @@ sidebar:
   - text: "[Github Repository](https://github.com/dearmysolitude/java-christmas-6-dearmysolitude)"
   - title: "특징"
     text: "요구사항 구현 완료. 테스트 코드와 예외 처리 구현. 요구 사항에 따라 메서드는 최소의 기능을 하며, else if 나 3항 연산자를 사용하지 않음..."
-  - text: "**분류**: 문제 해결 / 제한 시간 내 완료"
+  - title: "분류"
+    text: "문제 해결 / 제한 시간 내 완료"
   - title: "기한"
     text: "2023년 11월 11일 ~ 2023년 11월 15일"
 gallery:

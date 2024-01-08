@@ -1,4 +1,14 @@
+---
+title: "문제 해결 과정에서 받은 피드백(~ing)"
+excerpt: "머리 속에 조금이나마 길게 남겨두고파..."
 
+toc: true
+toc_sticky: true
+
+categories:
+  - lesson
+tags:
+---
 
 
 ## 프리코스 피드백 정리

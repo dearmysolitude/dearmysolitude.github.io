@@ -11,7 +11,8 @@ sidebar:
   - text: "[Gist 링크](https://gist.github.com/dearmysolitude/467392c4331d8bd348be3b2fee61ab90)"
   - title: "특징"
     text: "과제를 Gist 로 제출하는 것을 요구하였으므로 모두 한 파일에 구현. 모든 요구사항 구현 완료. 여러 예외처리 추가. Java UI는 처음 사용하였기 때문에 모양이 완벽하지 않음."
-  - text: "**분류**: 문제 해결 / 제한 시간 내 완료"
+  - title: "분류"
+    text: "문제 해결 / 제한 시간 내 완료"
   - title: "기한"
     text: "2023년 12월 2일 ~ 2023년 12월 4일"
 toc: true

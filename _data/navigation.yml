@@ -25,6 +25,8 @@ sidebar:
 
   - title: "Computer Science"
     children:
+      - title: "🌃 Computer Science: 일반"
+        url: "/computer-science/general/"
       - title: "🖥️ Operating System"
         url: /computer-science/os/
         category: "Operating System"
@@ -43,3 +45,6 @@ sidebar:
       - title: "👨‍💻 Krafton Jungle"
         url: /activities/jungle/
         category: "Krafton Jungle"
+      - title: "🌃 배운 것"
+        url: /activities/lessons/
+        category: "lesson"
