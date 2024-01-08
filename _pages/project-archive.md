@@ -6,13 +6,15 @@ collection: project
 classes: wide
 sidebar:
   - text: "# 기술 스택"
-  - title: "언어 / Language"
+  - title: "언어"
     text: "Java, Python, C"
-  - title: "프레임워크 / Framework"
+  - title: "프레임워크"
     text: "Spring, Spring Boot"
-  - title: "구성 / Infrastructure"
+  - title: "구성"
     text: "AWS EC2, AWS CodeDeploy, Github Actions, NginX, Ubuntu 22.04(LTS)"
-  - title: "개발 환경 / IDE"
+  - title: "협업 & 형상 관리"
+    text: "Github, Slack"
+  - title: "개발 환경"
     text: "IntelliJ[Java], VS Code[C/C++(with WSL2, GCC), Python]"
 ---
 
