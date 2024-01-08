@@ -1,6 +1,6 @@
 ---
 title: "미니 프로젝트: 카드 게임"
-excerpt: "코드스쿼드 선발 과제 / 1차 선발 합격"
+excerpt: "문제 해결: 코드스쿼드 선발 / 1차 합격"
 header:
   teaser: /assets/images/mini_cardgame/screen.png
 sidebar:
@@ -11,6 +11,7 @@ sidebar:
   - text: "[Gist 링크](https://gist.github.com/dearmysolitude/467392c4331d8bd348be3b2fee61ab90)"
   - title: "특징"
     text: "과제를 Gist 로 제출하는 것을 요구하였으므로 모두 한 파일에 구현. 모든 요구사항 구현 완료. 여러 예외처리 추가. Java UI는 처음 사용하였기 때문에 모양이 완벽하지 않음."
+  - text: "**분류**: 문제 해결 / 제한 시간 내 완료"
   - title: "기한"
     text: "2023년 12월 2일 ~ 2023년 12월 4일"
 toc: true
@@ -20,6 +21,7 @@ tags:
   - Java
   - 자바
   - 미니 프로젝트
+  - 과제 해결
 ---
 
 12월 1일부터 12월 5일까지 진행된 2023년 코드스쿼드 선발 과제 후기입니다.

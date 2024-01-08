@@ -1,6 +1,6 @@
 ---
 title: "미니 프로젝트: 크리스마스"
-excerpt: "우테코 프리코스 4 주차 과제"
+excerpt: "문제 해결: 우테코 프리코스 4 주차"
 header:
   teaser: /assets/images/mini_woowapre/woowa-head.png
 sidebar:
@@ -11,7 +11,8 @@ sidebar:
   - text: "크리스마스 이벤트로 12월 중 날짜와 원하는 메뉴를 정하면, 적용 이벤트/할인 가격/증정품/뱃지를 알려주는 프로그램. Java로 구현."
   - text: "[Github Repository](https://github.com/dearmysolitude/java-christmas-6-dearmysolitude)"
   - title: "특징"
-    text: "모든 요구사항 구현 완료. 테스트 코드와 예외 처리 구현. 요구 사항에 따라 메서드는 최소의 기능을 하며, else if 나 3항 연산자를 사용하지 않음."
+    text: "요구사항 구현 완료. 테스트 코드와 예외 처리 구현. 요구 사항에 따라 메서드는 최소의 기능을 하며, else if 나 3항 연산자를 사용하지 않음..."
+  - text: "**분류**: 문제 해결 / 제한 시간 내 완료"
   - title: "기한"
     text: "2023년 11월 11일 ~ 2023년 11월 15일"
 gallery:
@@ -31,6 +32,7 @@ tags:
   - Java
   - 자바
   - 미니 프로젝트
+  - 과제 해결
 ---
 
 우테코 프리코스 4: java-christmas를 구현하며 생각한 내용을 정리하였습니다.

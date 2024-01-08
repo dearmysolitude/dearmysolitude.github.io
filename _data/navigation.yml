@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "🌌Home"
+  - title: "Home"
     url: /
-  - title: "🌃Projects"
+  - title: "🌌Projects"
     url: /project/
   - title: "Tags"
     url: /tags/
