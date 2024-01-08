@@ -1,6 +1,6 @@
 ---
-title: "미니 프로젝트: 크리스마스"
-excerpt: "문제 해결: 우테코 프리코스 4 주차"
+title: "문제 해결: 크리스마스"
+excerpt: "우테코 프리코스 4 주차 / 테스트 코드 적용과 문제 해결 위주로"
 header:
   teaser: /assets/images/mini_woowapre/woowa-head.png
 sidebar:

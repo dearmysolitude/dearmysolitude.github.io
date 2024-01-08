@@ -1,9 +1,8 @@
 ---
 title: "Project"
-layout: collection
+layout: archive
 permalink: /project/
 collection: project
-entries_layout: grid
 classes: wide
 sidebar:
   - text: "# 기술 스택"
@@ -17,3 +16,20 @@ sidebar:
     text: "IntelliJ[Java], VS Code[C/C++(with WSL2, GCC), Python]"
 ---
 
+<div style="clear: both;">
+  <h2 id="projects" class="archive__subtitle">프로젝트</h2>
+  {% for post in site.project %}
+    {% unless post.tags contains '미니 프로젝트' %}
+      {% include archive-single.html type="grid" %}
+    {% endunless %}
+  {% endfor %}
+</div>
+
+<div style="clear: both;">
+  <h2 id="mini-projects" class="archive__subtitle">미니 프로젝트</h2>
+  {% for post in site.project %}
+    {% if post.tags contains '미니 프로젝트' %}
+      {% include archive-single.html type="grid" %}
+    {% endif %}
+  {% endfor %}
+</div>

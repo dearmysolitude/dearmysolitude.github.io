@@ -1,6 +1,6 @@
 ---
-title: "미니 프로젝트: 카드 게임"
-excerpt: "문제 해결: 코드스쿼드 선발 / 1차 합격"
+title: "문제 해결: 카드 게임"
+excerpt: "코드스쿼드 선발 과제 / 1차 합격"
 header:
   teaser: /assets/images/mini_cardgame/screen.png
 sidebar:
