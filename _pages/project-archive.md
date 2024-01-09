@@ -4,6 +4,7 @@ layout: archive
 permalink: /project/
 collection: project
 classes: wide
+author_profile: true
 sidebar:
   - title: "언어 & 프레임워크"
     text: "Java, Python, C / Spring, Spring Boot"

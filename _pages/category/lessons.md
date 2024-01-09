@@ -6,11 +6,12 @@ author_profile: true
 sidebar_main: true
 taxonomy: Lesson
 classes: wide
+show_date: true
 ---
 
 발생한 문제를 해결하거나 배운 점들에 대한 게시물을 모아놓은 페이지입니다.
 
-<H2>Problem Solving</H2>
+<H2>🧐 Problem Solving</H2>
 
 {% for category in site.categories %}
   {% assign has_tag = false %}
@@ -36,15 +37,11 @@ classes: wide
 
 {% endfor %}
 
-<div style="clear: both;">
-  <h2 id="projects" class="archive__subtitle">Mini Project</h2>
-  {% for post in site.project %}
-    {% if post.tags contains 'Problem Solving' %}
-      {% include archive-single.html type="grid" %}
-    {% endif %}
-  {% endfor %}
-</div>
+<h2 id="projects" class="archive__subtitle">Mini Project</h2>
+{% for post in site.project %}
+  {% if post.tags contains 'Problem Solving' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
-<div style="clear: both;">
-<H2>Lesson</H2>
-</div>
+<H2>🤓 Lesson</H2>

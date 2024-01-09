@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "🌌Portfolio"
-    url: /project/#page-title
+    url: /project/
   - title: "Tags"
     url: /tags/
 

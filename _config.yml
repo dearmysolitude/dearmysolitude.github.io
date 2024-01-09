@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Lucid"
   avatar           : "/assets/images/stardust.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "바닷가 좋아하는 카페 쳐돌이"
-  location         : "South Korea"
+  bio              : "안녕하세요, 개발로 더 나은 미래를 창출할 수 있다고 믿는 Lucid 입니다."
+  location         : 
   email            : 
   links:
     - label: "Email"
@@ -324,3 +324,4 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      show_date: true
