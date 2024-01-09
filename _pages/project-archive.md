@@ -5,7 +5,6 @@ permalink: /project/
 collection: project
 classes: wide
 sidebar:
-  - text: "# 기술 스택"
   - title: "언어"
     text: "Java, Python, C"
   - title: "프레임워크"
