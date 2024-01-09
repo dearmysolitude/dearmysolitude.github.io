@@ -8,6 +8,7 @@ toc_sticky: true
 categories:
   - Git
 tags:
+  - Problem Solving
 --- 
 ## 문제 발생
 

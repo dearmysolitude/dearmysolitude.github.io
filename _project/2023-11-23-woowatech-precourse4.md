@@ -34,6 +34,7 @@ tags:
   - 자바
   - 미니 프로젝트
   - 과제 해결
+  - Problem Solving
 ---
 
 우테코 프리코스 4: java-christmas를 구현하며 생각한 내용을 정리하였습니다.

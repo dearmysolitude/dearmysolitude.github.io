@@ -2,12 +2,21 @@
 main:
   - title: "Home"
     url: /
-  - title: "🌌Projects"
+  - title: "🌌Portfolio"
     url: /project/#page-title
   - title: "Tags"
     url: /tags/
 
 sidebar:
+  - title: "Activities"
+    children:
+      - title: "🧐 게시물 모아보기: 문제 해결 & 배운 것"
+        url: /activities/problem-solving&lessons/
+        category: "Lesson"
+      - title: "👨‍💻 Krafton Jungle"
+        url: /activities/kraftonjungle/
+        category: "Krafton Jungle"
+
   - title: "Programming"
     children:
       - title: "☕ Java"
@@ -17,16 +26,17 @@ sidebar:
         url: /programming/spring/
         category: "Spring"
       - title: "🌝 Linux"
-        url: /programming/linux
+        url: /programming/linux/
         category: "Linux"
       - title: "☁️ Git"
-        url: /programming/git
+        url: /programming/git/
         category: "Git"
 
   - title: "Computer Science"
     children:
       - title: "🌃 Computer Science: 일반"
         url: "/computer-science/general/"
+        category: "Computer Science"
       - title: "🖥️ Operating System"
         url: /computer-science/os/
         category: "Operating System"
@@ -39,12 +49,3 @@ sidebar:
       - title: "🗄️ DataBase"
         url: /computer-science/db/
         category: "DataBase"
-
-  - title: "Activities"
-    children:
-      - title: "👨‍💻 Krafton Jungle"
-        url: /activities/jungle/
-        category: "Krafton Jungle"
-      - title: "🌃 배운 것"
-        url: /activities/lessons/
-        category: "lesson"
