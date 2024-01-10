@@ -136,3 +136,112 @@ HTTP 통신 규약: 하이퍼텍스트를 빠르게 교환하기 위한 서버�
 - Client가 OutputStream으로 입력하면 Server는 InputStream으로 값을 입력받는다.
 - Server가 OutputStream으로 입력하면 Client는 InputStream으로 값을 입력받는다.
 - 동시에 가능하게 하려면 **멀티 스레드를 활용해야 한다.**
+
+### 예시
+
+```java
+public class VerySimpleWebServer {
+  public static void main(Stringp[] args) throws Exception {
+    ServerSocket ss = new ServerSocket(9090);
+
+    System.out.println("클라이언트 접속을 기다립니다.");
+    // 브라우저(client)와 통신할 수 있는 객체
+    Socket s = ss.accept();
+
+    // client와 읽고 쓸 수 있는 InputStream, OutputStream을 만들 수 있다. 
+    OutputStream out = s.getOutputStream();
+    InputStream in = s.getInputStream();
+
+    // client의 request를 받기 위해
+    byte[] buffer = new byte[512];
+    int readCount = 0;
+
+    while((readcount = in.read(buffer)) != -1) { // EOF 까지 읽는다.
+      System.out.write(buffer, 0, readCount); // 브라우저(client)가 보내주는 정보만큼 출력한다.
+    }
+
+    ss.close();
+    System.out.println("서버가 종료됩니다.");
+  }
+}
+```
+
+- 9090 포트로 개설
+- 클라이언트가 요청할 때까지 대기.
+- 클라이언트가 접속하는 순간, 소켓을 반환.
+- 브라우저에서 http://127.0.0.1:9090 으로 접속하면 Socket이 생성되어 다음 코드로 넘어간다.
+- HTTP 프로토콜은 클라이언트가 서버에 Request를 보낸다. 
+- 실행 후 브라우저로 접속해보면 클라이언트 요청 정보가 출력되는 것을 확인할 수 있다.
+
+```
+GET / HTTP/1.1
+Host: 127.0.0.1:9090
+Connection: keep-alive
+...
+...
+
+```
+
+- GET 요청과 함께 헤더 정보, 마지막엔 빈 줄이 출력되는 것을 확인할 수 있다.
+- http://127.0.0.1:9090/board/hello.html 로 접속하는 경우 GET 요청이 다음과 같이 출력되는 것을 확인할 수 있다.
+
+```
+GET /board/hello/html HTTP/1.1
+```
+
+- 어떤 형태로 client가 보내는지 알았으니, 한 줄씩 읽고 빈 줄이 출력되지 않게 코드를 수정하고
+- 서버가 응답 메세지를 보내도록 해 보자: [HTTP 안내서: mdn web docs](https://developer.mozilla.org/ko/docs/Web/HTTP/Messages#http_%EC%9D%91%EB%8B%B5)
+
+```java
+public class VerySimpleWebServer {
+  public static void main(Stringp[] args) throws Exception {
+    ServerSocket ss = new ServerSocket(9090);
+
+    System.out.println("클라이언트 접속을 기다립니다.");
+    // 브라우저(client)와 통신할 수 있는 객체
+    Socket s = ss.accept();
+
+    // client와 읽고 쓸 수 있는 InputStream, OutputStream을 만들 수 있다. 
+    OutputStream out = s.getOutputStream();
+    PrintWriter pw = new PrintWriter(new OutputStreamWriter(out)); // 전달
+    InputStream in = s.getInputStream();
+    BufferedReader br = new BufferedReader(new InputStreamReader(in));
+
+    // 전달 받은 내용 출력
+
+    String firstLine = br.readLine();
+    List<String> headers = new ArrayList<>();
+
+    String line = null;
+    // 빈 줄을 만나면 while문을 끝낸다.
+    while(!(line = br.readLine()).equals("")) {
+      header.add(line);
+    }
+
+    System.out.println(firstLine);
+    for(int i = 0; i < headers.size(); i ++) {
+      System.out.println(headers.get(i));
+    }
+
+    // 전달할 내용 써서 전달
+    // HTTP/1.1 200 OK <-- 상태 메세지
+    // 헤더 1
+    // 헤더 2
+    // 빈 줄
+    // 전달 내용
+    pw.println("HTTP/1.1 200 OK");
+    pw.println("name: park");
+    pw.println("email: example@gmail.com");
+    pw.println("");
+    pw.println("<html>");
+    pw.println("<h1>Hello!</h1>");
+    pw.println("</html>");
+    pw.close();
+
+    ss.close();
+    System.out.println("서버가 종료됩니다.");
+  }
+}
+```
+
+브라우저에서 어떻게 전달되었는지 확인하자: 개발자 도구 → 네트워크 탭을 실행한 상태에서 통신을 다시 주고받아보면 보내준 정보를 확인할 수 있다.
