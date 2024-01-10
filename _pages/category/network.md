@@ -1,6 +1,6 @@
 ---
 title: "Network"
-permalink: /computer-science/network/
+permalink: /network/
 layout: category
 author_profile: true
 sidebar_main: true

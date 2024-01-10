@@ -1,6 +1,6 @@
 ---
 title: "Computer Science"
-permalink: /computer-science/general/
+permalink: /cs/
 layout: category
 author_profile: true
 sidebar_main: true

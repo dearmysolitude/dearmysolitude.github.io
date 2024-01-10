@@ -1,6 +1,6 @@
 ---
 title: "DataBase"
-permalink: /computer-science/db/
+permalink: /db/
 layout: category
 author_profile: true
 sidebar_main: true

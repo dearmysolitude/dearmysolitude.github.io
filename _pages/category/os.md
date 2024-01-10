@@ -1,6 +1,6 @@
 ---
 title: "Operating System"
-permalink: /computer-science/os/
+permalink: /os/
 layout: category
 author_profile: true
 sidebar_main: true

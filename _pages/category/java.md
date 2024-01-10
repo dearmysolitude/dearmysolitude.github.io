@@ -1,6 +1,6 @@
 ---
 title: "Java"
-permalink: /programming/java/
+permalink: /java/
 layout: category
 author_profile: true
 sidebar_main: true

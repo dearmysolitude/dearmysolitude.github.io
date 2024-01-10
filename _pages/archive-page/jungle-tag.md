@@ -1,7 +1,7 @@
 ---
 title: "Krafton Jungle Archive"
 layout: archive
-permalink: /activities/kraftonjungle/tags
+permalink: /krafton-jungle/tags
 author_profile: true
 ---
 

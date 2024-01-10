@@ -1,15 +1,15 @@
 ---
 title: "Problem Solving & Lessons"
-permalink: /activities/problem-solving&lessons/
+permalink: /problem-solving-&-lessons/
 layout: category
 author_profile: true
 sidebar_main: true
-taxonomy: Lesson
+taxonomy: Problem Solving & Lessons
 classes: wide
 show_date: true
 ---
 
-문제를 해결하거나 배운 점들을 정리한 페이지: 
+문제를 해결하거나 배운 점들을 정리한 페이지
 
 <H2>🧐 Problem Solving</H2>
 

@@ -1,6 +1,6 @@
 ---
 title: "Krafton Jungle"
-permalink: /activities/kraftonjungle/
+permalink: /krafton-jungle/
 layout: category
 author_profile: true
 sidebar_main: true
@@ -9,4 +9,4 @@ toc_ads : true
 taxonomy: Krafton Jungle
 ---
 
-[👉 게시물 모아보기: Krafton Jungle Tag Archive](/activities/kraftonjungle/tags)
+[👉 게시물 모아보기: Krafton Jungle Tag Archive](/krafton-jungle/tags)

@@ -1,5 +1,5 @@
 ---
-title: "Portfolio"
+title: "Project"
 layout: archive
 permalink: /project/
 collection: project

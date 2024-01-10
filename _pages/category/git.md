@@ -1,6 +1,6 @@
 ---
 title: "Git"
-permalink: /programming/git/
+permalink: /git/
 layout: category
 author_profile: true
 sidebar_main: true

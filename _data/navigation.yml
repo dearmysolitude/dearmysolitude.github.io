@@ -2,7 +2,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "🌌Portfolio"
+  - title: "🌌Project"
     url: /project/
   - title: "Tags"
     url: /tags/
@@ -11,44 +11,44 @@ sidebar:
   - title: "Activities"
     children:
       - title: "🧐 모아보기: 문제 해결 & 배운 점"
-        url: /activities/problem-solving&lessons/
+        url: /problem-solving-&-lessons/
         category: "Lesson"
       - title: "👨‍💻 Krafton Jungle"
-        url: /activities/kraftonjungle/
+        url: /krafton-jungle/
         category: "Krafton Jungle"
 
   - title: "Programming"
     children:
       - title: "☕ Java"
-        url: /programming/java/
+        url: /java/
         category: "Java"
       - title: "🍃 Spring"
-        url: /programming/spring/
+        url: /spring/
         category: "Spring"
       - title: "🗡️ C/C++"
-        url: /programming/c_cpp/
+        url: /c_cpp/
         category: "C/C++"
       - title: "🌝 Linux"
-        url: /programming/linux/
+        url: /linux/
         category: "Linux"
       - title: "☁️ Git"
-        url: /programming/git/
+        url: /git/
         category: "Git"
 
   - title: "Computer Science"
     children:
-      - title: "🌃 Computer Science: 일반"
-        url: "/computer-science/general/"
+      - title: "🌃 Computer Science: 미분류"
+        url: "/cs/"
         category: "Computer Science"
       - title: "🖥️ Operating System"
-        url: /computer-science/os/
+        url: /os/
         category: "Operating System"
       - title: "🌐 Network"
-        url: /computer-science/network/
+        url: /network/
         category: "Network"
       - title: "⌛ Algorithm"
-        url: /computer-science/algorithm/
+        url: /algorithm/
         category: "Algorithm"
       - title: "🗄️ DataBase"
-        url: /computer-science/db/
+        url: /db/
         category: "DataBase"

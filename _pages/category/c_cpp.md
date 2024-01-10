@@ -1,6 +1,6 @@
 ---
 title: "C/C++"
-permalink: /programming/c_cpp/
+permalink: /c_cpp/
 layout: category
 author_profile: true
 sidebar_main: true
