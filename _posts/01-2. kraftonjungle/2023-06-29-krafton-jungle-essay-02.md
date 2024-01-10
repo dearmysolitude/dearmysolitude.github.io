@@ -4,6 +4,7 @@ excerpt: "핀토스가 끝났다"
 
 toc: true
 toc_sticky: true
+classes: wide
 
 categories:
   - Krafton Jungle

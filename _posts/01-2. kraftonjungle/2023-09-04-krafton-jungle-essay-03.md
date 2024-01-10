@@ -2,8 +2,8 @@
 title: "Jungle Log 03"
 excerpt: "정글 과정을 끝내며"
 
-toc: true
-toc_sticky: true
+toc: false
+classes: wide
 
 categories:
   - Krafton Jungle

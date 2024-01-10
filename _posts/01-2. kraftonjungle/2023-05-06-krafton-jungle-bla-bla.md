@@ -4,6 +4,7 @@ excerpt: "과제 중 코치님들과 잡담"
 
 toc: true
 toc_sticky: true
+classes: wide
 
 categories:
   - Krafton Jungle

@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 
 categories:
-  - C
+  - C/C++
 tags:
   - pointer
   - array

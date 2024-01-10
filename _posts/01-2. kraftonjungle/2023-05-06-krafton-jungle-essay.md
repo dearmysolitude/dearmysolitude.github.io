@@ -4,6 +4,7 @@ excerpt: "시작하면서"
 
 toc: true
 toc_sticky: true
+classes: wide
 
 categories:
   - Krafton Jungle
