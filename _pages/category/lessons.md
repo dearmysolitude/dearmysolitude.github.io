@@ -9,7 +9,7 @@ classes: wide
 show_date: true
 ---
 
-발생한 문제를 해결하거나 배운 점들에 대한 게시물을 모아놓은 페이지입니다.
+문제를 해결하거나 배운 점들을 정리한 페이지: 
 
 <H2>🧐 Problem Solving</H2>
 

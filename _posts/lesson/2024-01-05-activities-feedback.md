@@ -1,5 +1,5 @@
 ---
-title: "문제 해결 과정에서 받은 피드백(~ing)"
+title: "백엔드 피드백"
 excerpt: "머리 속에 조금이나마 길게 남겨두고파..."
 
 toc: true
@@ -8,7 +8,12 @@ toc_sticky: true
 categories:
   - Lesson
 tags:
+  - 피드백
+  - 우아한 테크코스
 ---
+
+## 1주차 피드백
+
 
 
 ## 프리코스 피드백 정리

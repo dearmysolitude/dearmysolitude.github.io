@@ -10,7 +10,7 @@ main:
 sidebar:
   - title: "Activities"
     children:
-      - title: "🧐 게시물 모아보기: 문제 해결 & 배운 것"
+      - title: "🧐 모아보기: 문제 해결 & 배운 점"
         url: /activities/problem-solving&lessons/
         category: "Lesson"
       - title: "👨‍💻 Krafton Jungle"
