@@ -1,10 +1,10 @@
 ---
-title: "Problem Solving & Lessons"
+title: "Problem solving & lessons"
 permalink: /problem-solving-&-lessons/
 layout: category
 author_profile: true
 sidebar_main: true
-taxonomy: Problem Solving & Lessons
+taxonomy: Problem solving & lessons
 classes: wide
 show_date: true
 ---

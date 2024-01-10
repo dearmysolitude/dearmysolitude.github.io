@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Operating System
+  - Operating system
 tags:
 ---
 # 컴퓨터 시스템 구조

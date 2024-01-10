@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Operating System
+  - Operating system
 tags:
   - Krafton Jungle
   - Malloc Lab

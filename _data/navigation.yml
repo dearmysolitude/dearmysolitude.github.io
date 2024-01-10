@@ -25,9 +25,9 @@ sidebar:
       - title: "🍃 Spring"
         url: /spring/
         category: "Spring"
-      - title: "🗡️ C/C++"
-        url: /c_cpp/
-        category: "C/C++"
+      - title: "🗡️ C&C++"
+        url: /c&c++/
+        category: "C&C++"
       - title: "🌝 Linux"
         url: /linux/
         category: "Linux"
@@ -38,17 +38,17 @@ sidebar:
   - title: "Computer Science"
     children:
       - title: "🌃 Computer Science: 미분류"
-        url: "/cs/"
-        category: "Computer Science"
+        url: "/computer-science/"
+        category: "Computer science"
       - title: "🖥️ Operating System"
-        url: /os/
-        category: "Operating System"
+        url: /operating-system/
+        category: "Operating system"
       - title: "🌐 Network"
         url: /network/
         category: "Network"
       - title: "⌛ Algorithm"
         url: /algorithm/
         category: "Algorithm"
-      - title: "🗄️ DataBase"
-        url: /db/
-        category: "DataBase"
+      - title: "🗄️ Database"
+        url: /database/
+        category: "Database"
