@@ -1,5 +1,5 @@
 ---
-title: "자바 I/O - 4"
+title: "자바 I/O 04"
 excerpt: "Composite pattern으로 다시 보는 Decorator pattern"
 
 toc: true

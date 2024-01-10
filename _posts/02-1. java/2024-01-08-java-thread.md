@@ -1,12 +1,12 @@
 ---
-title: "스레드 01"
+title: "자바 스레드"
 excerpt: "스레드의 개념과 실행 방법"
 
 toc: true
 toc_sticky: true
 
 categories:
-  - Computer science
+  - Java
 tags:
   - 스레드
   - Thread
@@ -14,7 +14,6 @@ tags:
   - Concurrency
   - Parallel
   - Time Slicing
-  - Java
 ---
 ## 성능 향상시키기
 

@@ -1,5 +1,5 @@
 ---
-title: "자바 I/O - 3"
+title: "자바 I/O 03"
 excerpt: "I/O Stream"
 
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: "자바 I/O - 5"
+title: "자바 I/O 05"
 excerpt: "ObjectInputStream, ObjectOutputStream 그리고 객체 직렬화"
 
 toc: true

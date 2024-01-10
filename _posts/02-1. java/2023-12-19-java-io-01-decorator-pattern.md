@@ -1,5 +1,5 @@
 ---
-title: "자바 I/O - 1"
+title: "자바 I/O 01"
 excerpt: "자바의 IO에 대해 알아보자"
 
 toc: true
