@@ -215,7 +215,7 @@ public class VerySimpleWebServer {
     String line = null;
     // 빈 줄을 만나면 while문을 끝낸다.
     while(!(line = br.readLine()).equals("")) {
-      header.add(line);
+      headers.add(line);
     }
 
     System.out.println(firstLine);
@@ -236,9 +236,12 @@ public class VerySimpleWebServer {
     pw.println("<html>");
     pw.println("<h1>Hello!</h1>");
     pw.println("</html>");
+    
+    pw.flush(); // 클라이언트에 보내기
+    br.close();
     pw.close();
-
     ss.close();
+
     System.out.println("서버가 종료됩니다.");
   }
 }
