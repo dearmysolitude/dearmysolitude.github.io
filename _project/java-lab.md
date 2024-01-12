@@ -1,12 +1,13 @@
 ---
 title: "Java Lab: 미니 프로젝트"
-excerpt: "자바 개념 적용 프로젝트: 회원 관리 / 채팅 프로그램"
+excerpt: "개념 적용 미니 프로젝트 묶음"
 header:
   teaser: /assets/images/java-lab/mm_input.png
 sidebar:
   - title: "Java Lab"
     image: /assets/images/java-lab/mm_input.png
     image_alt: "logo"
+    text: "개념들을 적용해보는 미니 프로젝트 묶음입니다."
   - text: "[Github Repository](https://github.com/dearmysolitude/java-lab)"
 
   - title: "1. 회원 관리"
@@ -14,7 +15,7 @@ sidebar:
   - text: "**기한:** 2024년 01월 03일 ~ 2024년 01월 04일"
 
   - title: "2. 채팅"
-  - text: "**특징:** / [강좌](https://www.youtube.com/watch?v=_23srXUbhz0&t=81s)"
+  - text: "**특징:** 채팅 서버에 접속하여 클라이언트들이 동시에 채팅을 주고받는 프로그램 / [강좌](https://www.youtube.com/watch?v=_23srXUbhz0&t=81s)"
   - text: "**기한:** 2024년 01월 12일 ~ 2024년 01월 13일"
 gallery:
   - url: /assets/images/java-lab/mm_input.png
@@ -35,14 +36,17 @@ tags:
   - 자바
   - 미니 프로젝트
 ---
+## 개발 도구
 
-## 구현 환경
+- Java 17
+- Gradle 8.4
+- IntelliJ 2023.3
 
-- Java 17, Gradle 8.4, IntelliJ 2023.3
+## 1. 회원 관리 프로그램
 
-## 회원 관리 프로그램
+- [README.md](https://github.com/dearmysolitude/java-lab/blob/main/document/Membership-Management.md)
 
-### 구현
+### 구현: DAO와 Service 인터페이스의 적용
 
 **UserDAO ✨**
 
@@ -60,9 +64,11 @@ tags:
 - 파일에서 인메모리로 가져온 데이터를 다루기 위해 가져온 List<User>를 조작하기 위한 메서드 집단
 - 파일 대신 데이터베이스나 네트워크 상의 데이터를 조작할 때에도 DAO로 불러오기만 한다면 유용하게 사용할 수 있다.
 
-## 채팅 프로그램
+## 2. 채팅 프로그램
 
-### 구현 시 유의점
+- [README.md](https://github.com/dearmysolitude/java-lab/blob/main/document/Chating.md)
+
+### 구현: 채팅은 어떻게 이루어지나
 
 1. 나의 [입력]과 상대편의 [입력 → 화면 출력] 동시 발생
 
