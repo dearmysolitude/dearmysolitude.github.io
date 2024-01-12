@@ -29,6 +29,8 @@ bundle exec jekyll serve
 
 - ~~Go-to-top 버튼 추가~~
 
+- ~~Breadcrums 제대로 작동하도록 수정~~
+
 - 카테고리 페이지에 pagination 적용
 
 ### 참고 사이트
