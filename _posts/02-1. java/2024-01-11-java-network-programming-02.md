@@ -174,9 +174,9 @@ class ClietThread extends Thread {
             pw.println("name: park");
             pw.println("email: example@gmail.com");
             pw.println("");
-            pw.fluxh(); // ⇽ <1>
+            pw.fluxh(); // ⇽ 1.
 
-            pw.println("<html>"); // ⇽ <2>
+            pw.println("<html>"); // ⇽ 2.
             pw.println("<h1>" + msg + " World !</h1>");
             pw.println("</html>");
 
@@ -191,13 +191,13 @@ class ClietThread extends Thread {
 }
 ```
 
-<1> 실제 서버에서는 알맞은 데이터(예: 이미지)를 전달하기 위해 헤더에 데이터 유형과 크기를 같이  전달한다. 이 헤더는 flush()로 클라이언트에 전달한다(flush안하면 적절한 데이터 타입과 크기를 알 수 없으므로 얼마나 읽어야 하는이 클라이언트가 알 수 없다).
+1. 실제 서버에서는 알맞은 데이터(예: 이미지)를 전달하기 위해 헤더에 데이터 유형과 크기를 같이  전달한다. 이 헤더는 flush()로 클라이언트에 전달한다(flush안하면 적절한 데이터 타입과 크기를 알 수 없으므로 얼마나 읽어야 하는이 클라이언트가 알 수 없다).
 
-<2> binary 파일을 전달할 때에는 OutputStream을 통해서 byte stream 만큼 전달한다.
+2. binary 파일을 전달할 때에는 OutputStream을 통해서 byte stream 만큼 전달한다.
 
-<추가> 서버는 /hello, 즉 특정 페이지를 요청 받았을 때, 어느 경로에 있는 파일을 읽어서 전달해야 하지?
+3. (추가) 서버는 /hello, 즉 특정 페이지를 요청 받았을 때, 어느 경로에 있는 파일을 읽어서 전달해야 하지?
 
-→ Apache나 NginX같은 서버의 설정 파일이 어떻게 되어있는지 공부하면 도움이 될 것.
+    → Apache나 NginX같은 서버의 설정 파일이 어떻게 되어있는지 공부하면 도움이 될 것.
 
 ## 자바의 네트워크 프로그래밍 클래스
 
