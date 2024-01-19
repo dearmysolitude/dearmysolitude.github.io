@@ -10,6 +10,9 @@ main:
 sidebar:
   - title: "Activities"
     children:
+      - title: "😶‍🌫️ 생각 정리하기"
+        url: /organizing-ideas/
+        category: "Organizing ideas"
       - title: "🧐 모아보기: 문제 해결 & 배운 점"
         url: /problem-solving-&-lessons/
         category: "Lesson"
