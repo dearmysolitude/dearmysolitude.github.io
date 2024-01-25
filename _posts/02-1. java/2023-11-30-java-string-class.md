@@ -122,11 +122,18 @@ public class Main {
 }
 ```
 ~> 작동시켜 보자... / 출처: https://readystory.tistory.com/141
-
  
 ## 그러나 Java 8버전 이후에는...
 자바 8버전 이후부터 String 의 + 연산자를 통한 Concatenation에 대해 자바 컴파일러가 자동으로 StringBuilder로 변환해주고 있습니다. 따라서 자바 8 이상을 사용하시는 분이라면 일반적인 상황에서 StringBuilder를 고려하지 않으셔도 됩니다만, 반복문 내에서 이루어지는 Concatenation에 대해서는 StringBuilder로 변환해주지 않기 때문에 명시적으로 StringBuilder를 사용하시는 것이 좋습니다.
- 
+
+## String 클래스의 메서드, `split()`: JVM의 관점에서
+
+```java
+String board = "번호,제목,내용,글쓴이";
+String[] arr = board.split(",");
+```
+
+arr를 가르키는 지역 변수(아마도 대부분의 경우)는 스택에 위치하고(만약 전역이나 static이라면 클래스 정보와 함께 메서드 영역에 있을 것이다.), arr는 힙에 생성되며, arr에 있는 String객체는 JVM이 관리하는 문자열이 저장된 메모리 구역에 위치한다.
 
 ## 참고 자료
 [Difference between String buffer and String builder in Java (tutorialspoint.com)](https://www.tutorialspoint.com/difference-between-string-buffer-and-string-builder-in-java)

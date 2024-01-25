@@ -33,6 +33,21 @@ bundle exec jekyll serve
 
 - 카테고리 페이지에 pagination 적용
 
+- Obsidian으로 옮겨서 퍼블리시를 할까?: 2 만원/month ~~너무 비싸~~
+
 ### 참고 사이트
 
 - https://chaelin0722.github.io/categories/Blog
+
+### 주제별 학습이 필요한 부분
+지금 필요한 부분: 중요도가 높은 것부터.
+
+**Java**
+
+- JUnit을 활용한 자바 테스트 코드 작성
+- JVM
+
+**Spring**
+
+- Spring MVC request
+- Network: RESFUL API
