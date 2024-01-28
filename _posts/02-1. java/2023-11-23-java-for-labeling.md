@@ -51,11 +51,12 @@ public class LabelExam {
 ```java
 int sum = 0;
 int i = 0;
+
 for(int i score : scores) {
-		if(i % 2 == 0) {
-				sum = sum + scores[i];
-		}
-		i++;
+	if(i % 2 == 0) {
+		sum = sum + scores[i];
+	}
+	i++;
 }
 ```
 
@@ -66,11 +67,12 @@ for(int i score : scores) {
 ```java
 int sum = 0;
 int i = 0;
+
 for(final int i score : scores) { // << 이렇게 final로 해 놓으면,
-		score = score * 100; // << 이 부분이 구문 오류로 잡힌다!
-		if(i % 2 == 0) {
-				sum = sum + scores[i];
-		}
-		i++;
+	score = score * 100; // << 이 부분이 구문 오류로 잡힌다!
+	if(i % 2 == 0) {
+		sum = sum + scores[i];
+	}
+	i++;
 }
 ```

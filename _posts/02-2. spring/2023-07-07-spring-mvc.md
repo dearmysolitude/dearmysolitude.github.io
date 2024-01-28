@@ -1,6 +1,6 @@
 ---
 title: "Spring, Spring Boot, Spring MVC의 이해"
-excerpt: "스프링 프레임워크의 현재 모습과 이런 형태를 지니게 된 이유와 이점"
+excerpt: "Spring, Spring MVC 그리고 Spring Boot"
 
 toc: true
 toc_sticky: true

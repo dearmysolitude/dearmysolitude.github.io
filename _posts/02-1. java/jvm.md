@@ -26,7 +26,7 @@ tags:
 - 스레드: stack(1Mb) / register로 이루어짐, 실행 코드는 스택 메서드 영역에 있는 코드(클래스 정보)를 찾아가 실행한다.
 - GC(스레드로 동작한다!)는 heap 영역을 관리한다.
 
-**1. 메모리**
+## 1. 메모리
 
 프로그램을 실행하기 위한 데이터 및 명령어를 저장하는 공간
 
@@ -202,3 +202,5 @@ ii) 참조되지 않은 객체들을 한꺼번에 삭제
 iii) Minor Garbage Collection에 비해 시간이 오래 걸리고 실행 중 프로세스가 정지
 
 https://interviewnoodle.com/jvm-architecture-71fd37e7826e
+
+이런 배경을 공부하고 나면 
