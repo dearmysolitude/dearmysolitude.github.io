@@ -1,6 +1,6 @@
 ---
-title: "팩토리 메서드 패턴(Factory method pattern)과 Java Reflection"
-excerpt: "팩토리 메서드 패턴과 Java Reflection, 그리고 그 연계 사용에 대한 내용"
+title: "자바 Class 와 Reflection"
+excerpt: "자바의 클래스 객체와 이를 이용한 자바 reflection에 대해 살펴보자."
 
 toc: true
 toc_sticky: true
@@ -8,57 +8,34 @@ toc_sticky: true
 categories:
   - Java
 tags:
-  - Design Pattern
-  - 디자인 패턴
-  - Factory method Pattern
-  - 팩토리 메서드 패턴
+  - JVM
+  - 생성자
   - Reflection
-  - 리플렉션
 ---
-## 팩토리 메서드 패턴
-객체지향 디자인 패턴이다. 가상 생성자 패턴(Virtual Constructor Pattern)이라고도 한다. 부모 클래스에 알려지지 않은 구체 클래스를 생성하는 패턴이며, 자식 클래스가 어떤 객체를 생성할지를 결정하도록 하는 패턴이다.
 
-복잡한 생산 과정을 완전히 숨기고, 완성된 인스턴스만 반환한다.
+## 각 클래스도 OS입장에서는 '클래스'의 특별한 케이스이다.
+- OS 단에서 보면 특정 클래스도 클래스의 특별화된 객체이다. '클래스'로 일반화 한 것.
+- `Car.class.getName();`  << 이 코드를 살펴보자
+- 클래스의 이름 뿐 아니라, 메서드나 필드도 가져올 수 있다(일반화)
 
-팩토리 메서드 패턴을 사용하면, 객체를 생성하는 코드와 그 객체를 사용하는 코드를 분리할 수 있다. 따라서 코드의 유연성이 향상되고, 재사용성이 높아진다.
+## `Class`
 
-아래는 팩토리 메서드 패턴의 예이다.
+- 클래스에 대한 메타데이터를 담고 있다. 클래스 이름, 슈퍼클래스, 인터페이스, 필드, 메서드를 포함한다.
+- 모든 클래스는 `class` 라는 이름의 정적 필드를 가지며, 이 필드는 해당 클래스의 `Class`객체를 참조한다.
+- 이를 통해 해당 클래스에 대한 정보를 얻거나, 리플렉션(Reflection)을 사용하여 동적으로 코드를 실행할 수 있다.
 
-```java
-public class BeanFactory{
-    // 2. 자기 자신 인스턴스를 참조하는 static한 필드를 선언.
-    private static BeanFactory instance = new BeanFactory();
+### 자바 Reflection
 
-    // 1.private 생성자: 외부에서 인스턴스 생성하지 못함.
-    private BeanFactory() {}
-    
-    // 3. 2번에서 생성한 인스턴스를 반환하는 static한 메서드를 만든다.
-    public static BeanFactory getInstance() {
-        return instance;
-    }
-}
+### 왜 자바 리플렉션과 자바 클래스를 같이 보는거지?
 
-```
+리플렉션은 자바에서 제공하는 API로, 런타임에 클래스, 인터페이스, 필드 및 메서드 같은 클래스 멤버에 대한 정보를 가져오거나 새로운 인스턴스를 생성하거나, 메서드를 호출하거나 필드 값을 가져오거나 설정하는 등 작업을 할 수 있게 해 준다. 동적으로 코드를 실행하고, 클래스의 구조를 분석하거나 변경할 수 있다.
 
-```java
-public class BeanFactoryMain() {
-    public static void main(String[] args) {
-        BeanFactory bf1 = BeanFactory.getInstance(); // BeanFactory에게 객체 생성과정을 맡김
-        BeanFactory bf1 = BeanFactory.getInstance();
-        if(bf1 == bf2) {
-            System.out.println("bf1 == bf2");
-        }
-    }
-}
-```
-
-→ new 연산자를 사용하는게 아니라 BeanFactory 클래스에서 객체를 생성하도록 한 Factory method 패턴이다.
-
-## Java Reflection
+### 자바 리플렉션이란?
 
 런타임 시점에 프로그램 내부 구조를 분석하고, 조작할 수 있는 기능. JVM은 클래스 정보를 클래스 로더를 통해 읽어와서 해당 정보를 JVM에 저장한다.
 
 주요 기능
+
 - 객체의 클래스 정보를 가지고 올 수 있다.
 - 클래스의 필드 정보를 가져오거나 수정할 수 있다.
 - 클래스의 메서드 정보를 가져오거나 실행할 수 있다.
@@ -121,12 +98,26 @@ public class BeanFactoryMain() {
 
 ## 팩토리 메서드 패턴과 Java Reflection의 결합
 
+[펙토리 메서드 패턴]({% post_url 2023-12-11-java-factory-method-pattern %})
+
 → 클래스 이름만 가지고 인스턴스를 만드는 동작을 구현할 수 있다
 
 Spring 같은 경우도 Bean 생성 시 사용되는 패턴임. 물론 더 고차원적인 많은 가공을 사용하여 편의를 제공하는 것이다.
 
+
+### 그러나
+
+예기치 않은 부작용을 초래할 수 있다. 
+
+- 특히, 접근 제어자를 무시하고 private 필드에 접근
+- private 메서드를 호출
+
+하는 등의 작업은 코드 안정성을 헤칠 수 있기 때문이다.
+
 ## 참고 자료
 
-[팩토리 메서드 패턴 - 위키백과](https://ko.wikipedia.org/wiki/%ED%8C%A9%ED%86%A0%EB%A6%AC_%EB%A9%94%EC%84%9C%EB%93%9C_%ED%8C%A8%ED%84%B4)
+[자바 리플렉션 간단 설명 및 사용 방법 정리](https://blog.naver.com/PostView.nhn?blogId=gracefulife&logNo=220627537434)
+
+[자바 리플레션 소개 및 사용법, 예제](https://hbase.tistory.com/350)
 
 [리플렉션 개념 및 사용볍 - 로그의 개발일지](https://m.blog.naver.com/hj_kim97/223110095000)
