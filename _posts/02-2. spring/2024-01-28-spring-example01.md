@@ -2,8 +2,7 @@
 title: "Spring 예제 코드 01"
 excerpt: "Spring 애플리케이션 컨텍스트에서 bean 정의 이름 목록을 검색하고, 이 목록의 이름을 콘솔에 울력하는 예제"
 
-toc: true
-toc_sticky: true
+toc: false
 
 categories:
   - Spring

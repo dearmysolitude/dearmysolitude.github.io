@@ -1,6 +1,6 @@
 ---
-title: "Spring Framework: Intro"
-excerpt: "Spring Framework를 시작하기 위한 기본적인 이해. + 자바 문법: var 자료형, try-with-resources 문"
+title: "Spring Framework: Core Features"
+excerpt: "Spring Framework의 핵심 기능: 예제 코드를 통해"
 
 toc: true
 toc_sticky: true
@@ -9,12 +9,9 @@ categories:
   - Spring
 tags:
 ---
-- [Spring Boot 3 & Spring Framework 6 마스터 - Udemy](https://www.udemy.com/course/spring-boot-and-spring-framework-korean/learn/lecture/36692976#content)
-- [강의 Github Repository](https://github.com/in28minutes/master-spring-and-spring-boot/tree/main/01-spring)
-
 ## Spring
 
-Spring은 각종 개발에 대한 core feature를 제공한다. Spring boot은 spring을 통해 쉽게 접근할 수 있다.
+Spring은 각종 개발에 대한 core feature를 제공한다. Spring은 spring boot을 통해 쉽게 접근할 수 있다.
 
 ## Spring Container
 
@@ -113,6 +110,30 @@ Spring에서, 응용 프로그램의 기반을 형성하는 객체들이 Spring 
  
 
 ## 실습
+
+### 접근
+
+게임을 실행하기 위해 Game Runner를 디자인해보자: in an **interactive approach**.
+
+<figure style="width: 30%" class="align-center">
+  <img src="https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216865&authkey=%21AE5goiWJ46td068&width=210&height=213" alt="">
+  <figcaption>앱 디자인을 위한 interactive approach</figcaption>
+</figure>
+
+- Iteration 1: Tightly Coupled Java Code
+	- GameRunner class
+	- Game classes: Mario, SuperContra, Pacman etc
+- Iteration 2: Loose Coupling - Interfaces
+	- GameRunner class
+	- GamingConsole interface
+		- Game classes: Mario, SuperContra, Pacman etc
+- Iteration 3: Loose Coupling - Spring Level 1
+	- Spring Beans
+	- Spring framework will manage objects and wiring
+- Iteration 4: Loose Coupling - Spring Level 2
+	- Spring Annotations
+	- Spring framework will create, manage & auto-wire objects
+- ...
 
 <figure style="width: 30%" class="align-center">
   <img src="https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216714&authkey=%21ALbq_R2u_lT0Q44&width=173&height=457" alt="">
