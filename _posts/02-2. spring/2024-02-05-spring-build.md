@@ -10,7 +10,9 @@ categories:
 tags:
   - Spring Boot
   - Dependency
-  - Build
+  - Gradle
+  - Maven
+  - Jar
 ---
 ## Dependency
 
