@@ -1,6 +1,6 @@
 ---
 title: "Spring Boot의 빌드"
-excerpt: "프로젝트에 필요한 의존성 쉽게 관리하기"
+excerpt: "Spring boot가 제공하는 편의: Dependency와 프로젝트 빌드"
 
 toc: true
 toc_sticky: true
