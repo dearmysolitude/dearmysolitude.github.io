@@ -1,5 +1,5 @@
 ---
-title: "Spring Boot의 빌드"
+title: "Spring Boot의 기능 1: 빌드"
 excerpt: "Spring boot가 제공하는 편의: Dependency와 프로젝트 빌드"
 
 toc: true

@@ -11,7 +11,6 @@ tags:
   - Spring Boot
   - Spring
 ---
-
 ## Spring Boot - 왜 Boot?
 
 Build PRODUCTION-READY apps QUICKLY. Spring Framework의 모듈화된 모듈들 중, 기본적인 설정을 제공.
@@ -37,11 +36,11 @@ Build PRODUCTION-READY apps QUICKLY. Spring Framework의 모듈화된 모듈들 
 ## 정리: 스프링 부트가 다루는 영역
 애플리케이션 개발 관련 거의 모든 영역
 
-- 빌드
+- [빌드]({% post_url 2024-02-05-spring-boot-build %})
   - 프로젝트 생성
   - 의존성 관리
   - 애플리케이션 패키징 및 실행
-- 코딩
+- [코딩]({% post_url 2024-02-06-spring-boot-code %})
   - 개발 툴 제공
   - 자동 설정
   - 외부 설정

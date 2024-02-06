@@ -120,4 +120,4 @@ No Dumb Question: 왜 스프링 프레임워크는 여러개의 모듈로 나뉜
   - Spring framework를 통해 Spring Boot에 대한 이해를 쉽게 할 수 있다.
   - 문제 상황에 대한 디버깅을 빠르게 해결하는 것을 돕는다.
 
-[다음 글]({% post_url 2023-07-06-spring-framework-modules-projects %})에서 Spring Framework의 자세한 핵심 기능에 대해 예제 코드를 통해 이해해보자.
+[다음 글]({% post_url 2023-07-08-spring-framework-with-example %})에서 Spring Framework의 자세한 핵심 기능에 대해 예제 코드를 통해 이해해보자.
