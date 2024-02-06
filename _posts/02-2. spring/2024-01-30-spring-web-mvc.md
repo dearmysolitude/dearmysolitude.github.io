@@ -61,6 +61,8 @@ Spring Web model-view-controller 프레임워크는 DisPatcherServlet을 중심�
 - Servlet읜 `init()``, `destroy()` 메서드를 통해 관리된다. Servlet Container는 이러한 Servlet의 관리를 담당한다.
 - 요청이 들어오면 servlet container가 이러한 servlet을 생성하고 파괴하는 것이 아니라 가지고 있다가 다시 요청이 들어왔을 때 해당 요청을 처리하기 위해 다시 servlet을 호출한다.
 
+>> Spring boot는 Tomcat 이라는 Servlet Container를 사용한다: 기본적으로 8080 포트를 사용.
+
 ### Servlet의 문제: Front Controller의 등장
 
 각 요청마다 Servlet이 1:1 대응되어 있어서 공통 로직은 요청이 발생할 때마다 계속해서 실행되어야 했다.

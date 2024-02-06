@@ -64,8 +64,9 @@ Spring에서 제공하는 스프링 프로젝트를 위한 디렉터리 프리�
 - Project MetaData: 프로젝트의 기본적인 정보
   - Group, Artifact, version(처음 Spring 프로젝트 시작시 기본값: 1.0.0 - SNAPSHOT) : 프로젝트 식별 정보
   - Packaging: 어떻게 배포할 것인가
-    - Jar: 
-    - War: 자바 웹 애플리케이션(Web INF + 웹 관련 리소스를 포함하여 War로 패키징 하면 Tomcat)
+    - Jar: Java Archive
+    - War: Web Application Archive, 자바 웹 애플리케이션(Web INF + 웹 관련 리소스를 포함하여 War로 패키징 하면 Tomcat)
+- 의존성
 
 ## 참고 자료
 
