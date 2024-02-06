@@ -55,13 +55,32 @@ Advanced Spring Container with enterprise-specific features
 	- Easy integration with Spring AOP
 
 - Bean Factory의 하위 인터페이스로, Bean Factory 의 모든 기능을 포함하며, 추가로 엔터프라이즈 특정 기능을 제공한다.
+- 스프링 프레임워크의 IoC(Inversion of Control) 컨테이너 혹은 DI(Dependency Injection)컨테이너를 의미한다.
+- 스프링에서는 ApplicationContext를 통해 제어의 역전 원칙을 구현한다.
+- 스프링 설정 정보를 기반으로 객체를 생성하고 의존 관계를 연결하여 객체를 관리한다.
 - 추가 기능은 위에서 언급한 Spring의 AOP와의 간편한 통합, 메세지 리소스 처리(국제화를 위한), 이벤트 발행, 웹 애플리케이션에 대한 애플리케이션 계층 특정 컨텍스트(예: WebApplicationContext) 등이 포함된다.
 
-발췌
+정리해보면, ApplicationContext의 기능은 다음과 같다.
+1. 싱글톤 패턴 적용
+2. Bean의 생명 주기 관리
+3. Bean 간의 의존 관계 설정
+4. AOP(Aspect Oriented Programming) 적용
+
+스프링에서는 ApplicationContext는 다음과 같은 구현 클래스를 제공한다.
+
+- `ClassPathXmlApplicationContext`
+- `FileSystemXmlApplicationContext`
+- `AnnotationConfigApplicationContext`
+- `AnnotationConfigWebApplicationContext`
+- `WebApplicationContext`
+
+**발췌**
 
 [Spring Application Context - Baeldung](https://www.baeldung.com/spring-application-context)
 
 [Difference Between Inversion of Control and Dependency Injection - geeksforgeeks](https://www.geeksforgeeks.org/spring-difference-between-inversion-of-control-and-dependency-injection/)
+
+[The IoC Container - Spring docs](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans)
 
 ### 뭘 쓸까?
 
