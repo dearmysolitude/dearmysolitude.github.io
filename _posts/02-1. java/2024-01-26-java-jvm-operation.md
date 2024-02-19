@@ -61,7 +61,7 @@ public class CarExample {
 ### 3. 생성자 실행
 
 - 생성자 `Car()` 가 호출되어 이 객체를 초기화하는 로직이 스택에 스레드로 발생한다.
-- "포르쉐"는 Java에서 String을 관리하는 정적 변수로 메서드 영역에 생성되고, 이를 참조하는 참조 변수가 `Car()`로 전달된다. 이 부분에 대해서는 Java의 String 클래스에 대한 설명을 살펴보자: [Java의 String 클래스: String Constant Pool]({% post_url 2023-11-30-java-string-class %})
+- "포르쉐"는 Java에서 String을 관리하는 정적 변수로 메서드 영역에 생성되고, 이를 참조하는 참조 변수가 `Car()`로 전달된다. 이 부분에 대해서는 Java의 String 클래스를 다룰 때 사용하는 String Constant pool에 대해 공부해보자.
 - Car() 생성자는 지역 변수로 model을 가지고 있고, 스택의 스레드에서 이 값은 전달받은 String인 model을 참조한다.
 - 힙에 생성된 이 객체의 model 필드는 지역 변수인 model을 참조한다. 이 스레드는 종료, 스택에서 지워진다.
 - `yourCar`도 마찬가지: 이 과정이 반복된다.

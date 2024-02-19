@@ -67,8 +67,6 @@ String result = String.join(",", members); // "pobi,jason"
 
 Java Collection(List, Set, Map 등)을 사용하면 데이터를 조작할 때 다양한 API를 사용할 수 있다.
 
-[Java Collection 학습]({% post_url 2023-12-12-java-generic-collections %})
-
 ### 7. 추가 학습 자료
 
 - [[10분 테코톡] 오리&코린의 Merge, Rebase, Cherry pick](https://www.youtube.com/watch?v=b72mDco4g78)
