@@ -19,8 +19,6 @@ bundle exec jekyll serve
 - 사이트 등록: Google, Bing, Naver, Daum
 
 ### TODO
-- ~~Travis CI(글 push 할 때마다 Jekyll algolia로 데이터 전송) → Github Actions~~ 사이트 검색을 Algolia에서 lunr로 변경
-
 - ~~[사이드바 추가하기](https://enidanny.github.io/github%20blog/github-sidebar/)~~
 
 - ~~색 테마 변경~~
@@ -32,8 +30,6 @@ bundle exec jekyll serve
 - ~~Breadcrums 제대로 작동하도록 수정~~
 
 - 카테고리 페이지에 pagination 적용
-
-- Obsidian으로 옮겨서 퍼블리시를 할까?: 2 만원/month ~~너무 비싸~~
 
 ### 참고 사이트
 

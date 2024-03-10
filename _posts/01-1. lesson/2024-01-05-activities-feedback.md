@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Problem solving & lessons
+  - Lessons
 tags:
   - 피드백
   - 우아한 테크코스
