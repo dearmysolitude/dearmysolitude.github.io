@@ -30,6 +30,9 @@ toc_sticky: true
 tag:
   - Krafton Jungle
 ---
+
+{% include gallery caption="서비스 화면" %}
+
 ## 프로젝트 개요 및 특징
 
 GPT API를 사용하여 개발자를 위한 로드맵을 작성해주는 웹 서비스.
@@ -62,10 +65,6 @@ GPT API를 사용하여 개발자를 위한 로드맵을 작성해주는 웹 서
 - IDE: IntelliJ 2023.2
 - CI/CD: Github Actions/AWS CodeDeploy, S3, EC2
 - Reverse Proxy: NginX
-
-## 실제 서비스
-
-{% include gallery caption="서비스 화면" %}
 
 <br>
 
