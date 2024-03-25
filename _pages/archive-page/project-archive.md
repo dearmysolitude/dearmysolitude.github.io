@@ -8,14 +8,12 @@ author_profile: true
 sidebar:
   - title: "언어 & 프레임워크"
     text: "Java, Python, C / Spring, Spring Boot"
-  - title: "구성"
-    text: "AWS EC2, AWS CodeDeploy, Github Actions, NginX, Ubuntu 22.04(LTS)"
+  - title: "개발 및 배포 환경"
+    text: "AWS EC2(Ubuntu 22.04(LTS)), AWS CodeDeploy, Github Actions, NginX"
   - title: "협업 & 형상 관리"
     text: "Slack / Github"
   - title: "DB"
     text: "MySQL"
-  - title: "개발 환경"
-    text: "IntelliJ, VS Code(WSL2, GCC)"
 ---
 
 <div style="clear: both;">
