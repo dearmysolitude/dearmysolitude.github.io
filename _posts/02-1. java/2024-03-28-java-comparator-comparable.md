@@ -39,7 +39,7 @@ public boolean compareWithScore(ScoreCard scoreCard) {
 
 ## 풀이 개선
 1. 자료 구조에 객체를 배치할 때, 더 나은 성능을 가지는 sorting 알고리즘을 사용하는 것이 좋다.
-2. 클래스 내부에 비교하는 메서드를 넣을 수도 있지만, 클래스가 Comparable 인터페이스를 implement하도록 하여 객체가 Java Collections Framework가 제공하는 Arrays의 sorting 메서드를 사용 가능하도록 할 수 있다.
+2. 클래스 내부에 비교하는 메서드를 넣을 수도 있지만, 클래스가 Comparable 인터페이스를 implement 하도록 하여 객체가 Java Collections Framework가 제공하는 Arrays의 sorting 메서드를 사용 가능하도록 할 수 있다.
 3. 다른 풀이: 객체를 만드는 게 아니라 문자열 배열 자체를 비교 - Java Collections Framework에서 제공하는 Arrays.sort() 메서드 중 Comparator를 인자로 받는 메서드에 람다식으로 어떻게 비교할지 전달해줄 수 있다.
 
 ## Arrays
@@ -133,7 +133,7 @@ public static void main(String[] args) {
 
 #### 첫 번째 코드 블록
 
-Arrays는 배열의 sorting을 돕는 API이므로, 람다식으로 전달된 `(a, b) -> Arrays.compare(a, b)`는 배열 내부의 원소를 하나씩 비교하는 것이라는 걸 추측할 수 있다. (Arrays의 sort메서드를 살펴보면 알 수 있겠지만,) 이 람다식은 Comparator 인터페이스를 구현한 것으로 간주된다. [Arrays의 문서를 살펴보면 String[]을 인자로 받는 compare 메서드는 없다. T[]를 받는 메서드가 호출된 것.](https://docs.oracle.com/javase%2F9%2Fdocs%2Fapi%2F%2F/java/util/Arrays.html#compare-T:A-T:A-) 설명에 따르면, Compares two Object arrays, within comparable elements, lexicographically. 라고 하고 서술하고 있다.
+Arrays의 sort는 배열의 sorting을 하는 메서드이므로, 람다식으로 전달된 `(a, b) -> Arrays.compare(a, b)`는 배열 내부의 원소를 하나씩 비교하는 것이라는 걸 추측할 수 있다. [또한 Arrays의 sort의 오버로드된 메서드 중에는 람다식을 전달할 수 있는 경우가 한 가지 밖에 없으므로](https://docs.oracle.com/javase/9/docs/api///java/util/Arrays.html#sort-T:A-java.util.Comparator-), 이 람다식은 Comparator 인터페이스를 구현한 것으로 간주된다. [Arrays의 문서를 살펴보면 String[]을 인자로 받는 compare 메서드는 없다. T[]를 받는 메서드가 호출된 것.](https://docs.oracle.com/javase%2F9%2Fdocs%2Fapi%2F%2F/java/util/Arrays.html#compare-T:A-T:A-) 설명에 따르면, Compares two Object arrays, within comparable elements, lexicographically. 라고 서술하고 있다.
 
 또한, If the two arrays share a common prefix then the lexicographic comparison is the result of comparing two elements of type T at an index i within the respective arrays that is the prefix length, as if by:
 
