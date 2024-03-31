@@ -1,5 +1,5 @@
 ---
-title: "Java Lab: 미니 프로젝트"
+title: "Java Playground: 미니 프로젝트"
 excerpt: "개념 적용 미니 프로젝트 묶음"
 header:
   teaser: /assets/images/java-lab/mm_input.png
@@ -8,7 +8,7 @@ sidebar:
     image: /assets/images/java-lab/mm_input.png
     image_alt: "logo"
     text: "개념들을 적용해보는 미니 프로젝트 묶음입니다."
-  - text: "[Github Repository](https://github.com/dearmysolitude/java-lab)"
+  - text: "[Github Repository](https://github.com/dearmysolitude/java-playground)"
 
   - title: "1. 회원 관리"
   - text: "**특징:** 객체 직렬화를 통해 입력/출력을 간단하게 처리, Interface 적용 리팩터링 / [강좌](https://www.youtube.com/watch?v=HEsAMjd8zpo)"
@@ -44,8 +44,6 @@ tags:
 
 ## 1. 회원 관리 프로그램
 
-- [README.md](https://github.com/dearmysolitude/java-lab/blob/main/document/Membership-Management.md)
-
 ### 구현: DAO와 Service 인터페이스의 적용
 
 **UserDAO ✨**
@@ -65,8 +63,6 @@ tags:
 - 파일 대신 데이터베이스나 네트워크 상의 데이터를 조작할 때에도 DAO로 불러오기만 한다면 유용하게 사용할 수 있다.
 
 ## 2. 채팅 프로그램
-
-- [README.md](https://github.com/dearmysolitude/java-lab/blob/main/document/Chating.md)
 
 ### 기능 요구사항
 
