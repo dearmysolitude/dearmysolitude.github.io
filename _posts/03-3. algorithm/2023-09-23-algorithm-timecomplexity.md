@@ -1,6 +1,6 @@
 ---
 title: "시간 복잡도"
-excerpt: "에라토스테네스의 체를 사용한 문제 풀이"
+excerpt: "우리가 알고리즘을 공부하는 이유는?"
 
 toc: true
 toc_sticky: true

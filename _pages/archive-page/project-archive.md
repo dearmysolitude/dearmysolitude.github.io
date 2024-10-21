@@ -19,7 +19,7 @@ sidebar:
 <div style="clear: both;">
   <h2 id="projects" class="archive__subtitle">프로젝트</h2>
   {% for post in site.project %}
-    {% unless post.tags contains '미니 프로젝트' %}
+    {% unless post.tags contains '프로젝트' %}
       {% include archive-single.html type="grid" %}
     {% endunless %}
   {% endfor %}

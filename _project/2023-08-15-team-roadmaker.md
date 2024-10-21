@@ -29,6 +29,7 @@ toc: true
 toc_sticky: true
 tag:
   - Krafton Jungle
+  - 팀 프로젝트
 ---
 
 {% include gallery caption="서비스 화면" %}

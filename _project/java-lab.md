@@ -1,5 +1,5 @@
 ---
-title: "Java Playground: 미니 프로젝트"
+title: "개인 스터디: 회원 관리(객체 직렬화), 채팅 서버(공유객체, 입출력) 등"
 excerpt: "개념 적용 미니 프로젝트 묶음"
 header:
   teaser: /assets/images/java-lab/mm_input.png
