@@ -1,36 +1,51 @@
-### 개인 블로그 레포지터리
-- [블로그 바로가기](https://luciddevlog.kr)
-- [이전 블로그](https://dearmysolitude.tistory.com/)
-- 게시물 마이그레이션 중
+# Jekyll Theme - Mundana by WowThemes.net
 
-### 로컬 실행 커맨드
+[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/) &nbsp; | &nbsp; 
+[Download](https://github.com/wowthemesnet/mundana-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; 
+[Buy me a coffe](https://www.wowthemes.net/donate/) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/mundana-theme-jekyll/) &nbsp; | &nbsp; 
+[WordPress version](https://www.wowthemes.net/themes/mundana-wordpress/) 
 
-```
-bundle exec jekyll serve
-```
+![mundana jekyll theme screenshot](assets/images/screenshot.jpg)
 
-### 사용 서비스
-- 사이트: Github pages
-- jekyll 테마: [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/)
-- 도메인: Hosting.kr
-- 이미지: 외부 호스팅(원드라이브)
-- 댓글: disqus
-- 검색: lunr
-- 사이트 등록: Google, Bing, Naver, Daum
+### Documentation
 
-### TODO
-- ~~[사이드바 추가하기](https://enidanny.github.io/github%20blog/github-sidebar/)~~
+[How to install & use](https://bootstrapstarter.com/bootstrap-templates/mundana-theme-jekyll/)
 
-- ~~색 테마 변경~~
+### Contribute to Mundana repository
 
-- ~~사이트 검색, 게시물 안에서 미리 보기로 나타나는 기본 이미지 변경/삭제 혹은 비활성화~~ 이미지 축소
+1. In the top-right corner of this page, click **Fork**.
 
-- ~~Go-to-top 버튼 추가~~
+2. Clone a copy of your fork on your local, replacing *YOUR-USERNAME* with your Github username.
 
-- ~~Breadcrums 제대로 작동하도록 수정~~
+   `git clone https://github.com/YOUR-USERNAME/mundana-theme-jekyll.git`
 
-- 카테고리 페이지에 pagination 적용
+3. **Create a branch**: 
 
-### 참고 사이트
+   `git checkout -b <my-new-feature-or-fix>`
 
-- https://chaelin0722.github.io/categories/Blog
+4. **Make necessary changes and commit those changes**:
+
+   `git add .`
+
+   `git commit -m "new feature or fix"`
+
+5. **Push changes**, replacing `<add-your-branch-name>` with the name of the branch you created earlier at step #3. :
+
+   `git push origin <add-your-branch-name>`
+
+6. Submit your changes for review. Go to your repository on GitHub, you'll see a **Compare & pull request** button. Click on that button. Now submit the pull request.
+
+That's it! Soon I'll be merging your changes into the master branch of this project. You will get a notification email once the changes have been merged. Thank you for your contribution.
+
+
+### Copyright
+
+Copyright (C) 2019 WowThemes.net.
+
+Theme designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT license. 
+
+<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+### Live Demo
+
+[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/)

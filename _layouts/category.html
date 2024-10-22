@@ -1,15 +1,15 @@
 ---
-layout: archive
+layout: default
 ---
+<div class="container">
+  {% assign entries_layout = page.entries_layout | default: 'list' %}
+  <div class="entries-{{ entries_layout }}">
+    {% include posts-category.html taxonomy=page.taxonomy type=entries_layout %}
+  </div>
 
-{{ content }}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include posts-category.html taxonomy=page.taxonomy type=entries_layout %}
+  {% assign post_count = site.categories[page.taxonomy] | size %}
+  {% if post_count >= 5 %}
+  <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}
+    &uarr;</a>
+  {% endif %}
 </div>
-
-{% assign post_count = site.categories[page.taxonomy] | size %}
-{% if post_count >= 5 %}
-  <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-{% endif %}
