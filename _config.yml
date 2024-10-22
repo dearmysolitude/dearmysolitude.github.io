@@ -1,5 +1,5 @@
 # Site
-title: "🌠 Lucid's devLog "
+name: "Lucid's devLog"
 description: '개발하고 싶은 사람의 기술 블로그'
 logo: 'assets/images/favicon.ico'
 favicon: 'assets/images/favicon.ico'
@@ -12,7 +12,7 @@ email: 'lucid.dream07@proton.me'
 timezone: Asia/Seoul
 
 include: ["_pages"]
-permalink: /:basename/
+permalink: /:title/
 
 # Plugins
 plugins: 
