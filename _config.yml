@@ -12,7 +12,7 @@ email: 'lucid.dream07@proton.me'
 timezone: Asia/Seoul
 
 include: ["_pages"]
-permalink: /:title/
+permalink: /:basename/
 
 # Plugins
 plugins: 
