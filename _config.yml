@@ -3,8 +3,9 @@ name: "🌠 Lucid's devLog "
 description: '개발하고 싶은 사람의 기술 블로그: 일 하고 싶어요'
 logo: 'assets/images/favicon.ico'
 favicon: 'assets/images/favicon.ico'
-baseurl: 'https://luciddevlog.kr'
-disqus: 'dearmysolitude-github-io'
+url: "https://luciddevlog.kr" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: # the subpath of your site, e.g. "/blog"
+repository: "dearmysolitude/dearmysolitude.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"disqus: 'dearmysolitude-github-io'
 email: 'lucid.dream07@proton.me'
 # mailchimp-list: 
 
