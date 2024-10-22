@@ -4,7 +4,7 @@ description: '개발하고 싶은 사람의 기술 블로그'
 logo: 'assets/images/favicon.ico'
 favicon: 'assets/images/favicon.ico'
 url: "https://luciddevlog.kr" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl: "/" # the subpath of your site, e.g. "/blog"
+baseurl:  # the subpath of your site, e.g. "/blog"
 repository: "dearmysolitude/dearmysolitude.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"disqus: 'dearmysolitude-github-io'
 email: 'lucid.dream07@proton.me'
 # mailchimp-list: 
@@ -20,7 +20,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-toc
   
 authors:
     lucid:
@@ -41,7 +40,6 @@ defaults:
       author: lucid
       comments: true
       avatar: assets/images/avatar.png
-      toc: true
       
   # all pages
   - scope:

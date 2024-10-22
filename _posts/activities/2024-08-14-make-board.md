@@ -2,9 +2,6 @@
 title: "간단한 게시판 만들어보기"
 excerpt: "MVC패턴의 적용과 페이지네이션, 대댓글 기능"
 
-toc: true
-toc_sticky: true
-
 image: "assets/images/teaser-image.png"
 categories:
   - Activity
