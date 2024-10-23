@@ -7,6 +7,7 @@ url: "https://luciddevlog.kr" # the base hostname & protocol for your site e.g. 
 baseurl:  # the subpath of your site, e.g. "/blog"
 repository: "dearmysolitude/dearmysolitude.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"disqus: 'dearmysolitude-github-io'
 email: 'lucid.dream07@proton.me'
+disqus: 'dearmysolitude-github-io'
 # mailchimp-list: 
 
 timezone: Asia/Seoul
@@ -49,7 +50,13 @@ defaults:
       
 # Syntax
 markdown: kramdown
-highlighter: rouge
+
+kramdown:
+  input: GFM
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  syntax_highlighter: rouge
+
 
 # Paginate
 paginate: 10
