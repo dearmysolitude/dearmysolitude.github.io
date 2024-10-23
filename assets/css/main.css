@@ -8465,9 +8465,9 @@ html {
 /* TOC Styles */
 .floating-toc {
   position: fixed;
-  right: 50px;
+  right: 15px;
   top: 100px;
-  width: 350px;  /* 너비 조정 */
+  width: 250px;  /* 너비 조정 */
   z-index: 1050 !important; /* navbar보다 높은 z-index */
 }
 
