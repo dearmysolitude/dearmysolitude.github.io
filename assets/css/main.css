@@ -8462,13 +8462,14 @@ html {
     align-self: stretch !important; } }
 
 /* TOC와 Sidebar 내용 추가 */
-/* TOC Styles */
+/* TOC Base Styles */
 .floating-toc {
   position: fixed;
-  right: 15px;
   top: 100px;
-  width: 250px;  /* 너비 조정 */
-  z-index: 1050 !important; /* navbar보다 높은 z-index */
+  right: 15px;
+  width: 250px;
+  z-index: 1050;
+  transition: all 0.3s ease;
 }
 
 .toc-wrapper {
@@ -8477,9 +8478,10 @@ html {
   border-radius: 5px;
   max-height: calc(100vh - 100px);
   overflow-y: auto;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 그림자 추가 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* TOC List Styles */
 .toc-wrapper ul {
   list-style: none;
   padding-left: 0;
@@ -8503,51 +8505,40 @@ html {
   color: #8ad1bb;
 }
 
-
-.floating-toc {
-  transition: all 0.3s ease;  /* 부드러운 전환 효과 */
-}
-
+/* TOC Icon */
 .toc-icon {
-  display: none;  /* 기본적으로 아이콘 숨김 */
+  display: none;
   position: fixed;
   right: 50px;
   top: 300px;
   cursor: pointer;
-  z-index: 1051 !important; /* TOC보다 높은 z-index */
+  z-index: 1051;
 }
 
+/* Responsive Styles */
 @media screen and (max-width: 1500px) {
   .floating-toc {
-    position: fixed;
-    right: -250px;  /* 기본적으로 화면 밖으로 숨김 */
-    top: 300;
-    width: 250px;
+    right: -250px;
+    top: 300px;
     height: 100vh;
     background: transparent;
     padding: 15px;
-    z-index: 999;
   }
   
   .toc-icon {
-    display: block;  /* 작은 화면에서 아이콘 표시 */
+    display: block;
   }
   
   .toc-icon:hover + .floating-toc,
-  .floating-toc:hover {
-    right: 0 !important;  /* 호버 시 TOC 표시 */
+  .floating-toc:hover,
+  .floating-toc.show {
+    right: 0 !important;
     display: block !important;
   }
 
   .site-content {
     margin-right: 0;
   }
-  /* 활성화 클래스도 강화 */
-  .floating-toc.show {
-    right: 0 !important;
-    display: block !important;
-  }
-
 }
 
 .sidebar-icon {
