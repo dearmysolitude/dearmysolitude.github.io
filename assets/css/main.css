@@ -8520,12 +8520,12 @@ html {
 @media screen and (max-width: 1500px) {
   .floating-toc {
     position: fixed;
-    right: -300px;  /* 기본적으로 화면 밖으로 숨김 */
+    right: -250px;  /* 기본적으로 화면 밖으로 숨김 */
     top: 300;
-    width: 300px;
+    width: 250px;
     height: 100vh;
     background: transparent;
-    padding: 20px;
+    padding: 15px;
     z-index: 999;
   }
   
@@ -8560,24 +8560,24 @@ html {
 
 .floating-sidebar {
   position: fixed;
-  left: -300px; /* 처음에 화면 밖으로 숨김 */
+  left: -250px; /* 처음에 화면 밖으로 숨김 */
   top: 0;
-  width: 300px;
+  width: 250px;
   height: 100%;
   background: #818f8d;
-  padding: 20px;
+  padding: 15px;
   z-index: 1052;
   transition: transform 0.3s ease; /* 애니메이션 효과 */
   transform: translateX(0); /* 기본 상태 */
 }
 /* visible 클래스가 있을 때 슬라이드 애니메이션 */
 .floating-sidebar.visible {
-  transform: translateX(300px); /* 화면 안으로 이동 */
+  transform: translateX(250px); /* 화면 안으로 이동 */
 }
 
 /* 사이드바가 숨겨질 때 */
 .hidden {
-  transform: translateX(-300px); /* 화면 밖으로 이동 */
+  transform: translateX(-250px); /* 화면 밖으로 이동 */
 }
 
 .sidebar-categories {
