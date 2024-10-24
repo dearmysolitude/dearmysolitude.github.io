@@ -2,7 +2,7 @@
 title: "지킬 블로그를 만들면서"
 excerpt: "lunr 검색 한글 적용과 sidebar, category 사용자 정의하기"
 
-image: /assets/images/teaser-image.png
+image: "assets/images/teaser-image.png"
 categories:
   - Activity
 tags:
