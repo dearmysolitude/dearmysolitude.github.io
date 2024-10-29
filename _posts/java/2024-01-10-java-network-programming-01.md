@@ -5,7 +5,7 @@ excerpt: "자바로 네트워크 프로그래밍 이해하기"
 toc: true
 toc_sticky: true
 
-image: https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216789&authkey=%21AJLgZ67B9FWdC9A&width=1687&height=325
+image: "https://onedrive.live.com/embed?resid=C4F97B3B64AE3E7A%216790&authkey=%21AEvZMmppScTjiWA&width=1114&height=742"
 categories:
   - Java
 tags:

@@ -50,13 +50,9 @@ defaults:
       
 # Syntax
 markdown: kramdown
-
 kramdown:
   input: GFM
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
   syntax_highlighter: rouge
-
 
 # Paginate
 paginate: 10
