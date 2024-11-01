@@ -41,6 +41,7 @@ defaults:
       author: lucid
       comments: true
       avatar: assets/images/avatar.png
+      image: assets/images/teaser-image.png
       
   # all pages
   - scope:

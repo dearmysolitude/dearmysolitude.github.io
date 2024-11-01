@@ -7,9 +7,9 @@ toc_sticky: true
 classes: wide
 
 categories:
-  - Krafton Jungle
+  - Activity
 tags:
-  - 에세이
+  - Krafton Jungle
 ---
 
 - 팀원 간의 실력 차이가 문제인 걸까. **협업**이 많이 어려웠다. 주차 회고 때 발표 자료를 준비하며 서로의 빈 부분을 채워가며 자료를 만드니 **개념과 코드에 대한 이해가 높아지고 빨라졌다**. 좀 더 제대로 같이 했다면 훨씬 좋은 결과를 얻을 수 있었을텐데. 서로 불편해질 수 있는 상황을 회피하려 한 것 같기도.

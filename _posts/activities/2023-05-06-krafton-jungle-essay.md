@@ -9,6 +9,8 @@ toc_sticky: true
 classes: wide
 
 categories:
+  - Activity
+tags:
   - Krafton Jungle
 ---
 # Intentions

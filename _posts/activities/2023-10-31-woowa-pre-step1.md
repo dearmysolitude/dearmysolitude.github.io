@@ -3,9 +3,10 @@ title: "2023 우테코 프리코스 후기 - 1"
 excerpt: "우테코 준비과정의 첫 단계에서 코드를 작성하며 정리한 내용들입니다."
 
 categories:
-  - 우테코 프리코스
+  - Activity
 tags:
   - 에세이
+  - 우테코 프리코스
 ---
 링크: [https://github.com/dearmysolitude/java-baseball-6](https://github.com/dearmysolitude/java-baseball-6)
 

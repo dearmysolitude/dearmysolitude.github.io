@@ -2,7 +2,10 @@
 title: "이러쿵 저러쿵"
 excerpt: "과제 중 코치님들과 잡담"
 
-categories:  [ Krafton Jungle ]
+categories:
+  - Activity
+tags:
+  - Krafton Jungle
 ---
 - 구조적 프로그래밍: 기능을 함수로 만드는 프로그래밍 스타일 → 개발 성향
     - 리팩토링을 양방향 모두 할 수 있으면 좋다: 두 스타일 모두 쓸모가 있기 때문에 상황에 맞추어 사용해야 할 수 있다.

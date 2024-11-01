@@ -6,9 +6,9 @@ toc: false
 classes: wide
 
 categories:
-  - Krafton Jungle
+  - Activity
 tags:
-  - 에세이
+  - Krafton Jungle
 ---
 정글을 끝내며 얻었던 내용들: Soft & Hard
 
