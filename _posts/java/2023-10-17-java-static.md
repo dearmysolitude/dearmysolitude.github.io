@@ -138,5 +138,5 @@ public final class CommonUtils {
 ## 참조
 
 - [https://mangkyu.tistory.com/47](https://mangkyu.tistory.com/47)
-- [JVM Memory Structure | devkuma](https://www.devkuma.com/docs/jvm/memory-structure/)
+- [JVM Memory Structure - devkuma](https://www.devkuma.com/docs/jvm/memory-structure/)
 - [남궁성의 자바](https://www.youtube.com/watch?v=Fl4TzjPKAMU&ab_channel=%EB%82%A8%EA%B6%81%EC%84%B1%EC%9D%98%EC%A0%95%EC%84%9D%EC%BD%94%EB%94%A9)
