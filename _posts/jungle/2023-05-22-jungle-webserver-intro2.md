@@ -1,6 +1,6 @@
 ---
 title: "웹서버 Intro - 2"
-excerpt: "소켓과 소켓 인터페이스, "
+excerpt: "소켓과 소켓 인터페이스, 프록시 서버와 HTTP, HTTP 캐싱에 대해 간단히"
 
 categories:
   - Jungle
@@ -12,7 +12,7 @@ tags:
 
 ![Untitled](https://1drv.ms/i/c/c4f97b3b64ae3e7a/IQQsJEB_FtXvRJr6mVTeEOCfAThe0B5FNci73wO0WTFuBFw?width=1024)
 
-![**소켓 인터페이스의 기반 네트워크 응용프로그램의 개요 - 중요✨**](https://1drv.ms/i/c/c4f97b3b64ae3e7a/IQT1kiWEs-B9T6PO2SxvQ3u3AVuUKl77X3nrIsLMu_ndFQ4?width=976&height=676)
+![**소켓 인터페이스의 기반 네트워크 응용프로그램의 개요**](https://1drv.ms/i/c/c4f97b3b64ae3e7a/IQT1kiWEs-B9T6PO2SxvQ3u3AVuUKl77X3nrIsLMu_ndFQ4?width=976&height=676)
 
 **소켓 인터페이스의 기반 네트워크 응용프로그램의 개요**
 
@@ -40,8 +40,6 @@ datagram: 패킷 교환에서, 데이터 단말 장치와 망과의 사전 접�
 
 [참고 자료: MIME](https://server-talk.tistory.com/183)
 
-
-CGI
 
 ### HTTP Hyper Text Transfer Protocol
 
@@ -126,3 +124,5 @@ HTTP 캐싱은 HTTP 응답을 저장해 두고 다음번에 동일한 HTTP 요�
 ![reverse-proxy](https://1drv.ms/i/c/c4f97b3b64ae3e7a/IQTjeJ7j185fQJl950uMatAjAe-gDgxDzc9Ib0FZhgnNV6Y?width=810&height=287)
 
 프록시 구축은 망을 제공하는 사업자일 수도 있고, 혹은 LAN이나 이더넷을 통해 내부망을 구축한 망 사용 주체(주로 산업체)일 수도 있다.
+
+참고: https://velog.io/@fredkeemhaus/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%86%8C%EC%BC%93-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4
